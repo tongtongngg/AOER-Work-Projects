@@ -6,7 +6,6 @@ This repository contains various automation and data processing projects develop
 
 ### 1. Rejsedokument Chatbot
 A tool designed to scrape travel documents from DTU Inside and process them into a structured format for a chatbot interface.
-- **Key Tools**: Crawl4AI, MarkItDown, HTTPX.
 - **Status**: Active.
 - **Location**: `/Rejsedokument_chatbot`
 
