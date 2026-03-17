@@ -51,16 +51,3 @@ def process_dtu_pdfs(url_file, output_dir, cookies=None):
                     os.remove("temp_processing.pdf")
 
                     
-# # --- EXECUTION ---
-# # Add your DTU Inside session cookies here
-# my_cookies = {
-#     "ASP.NET_SessionId": "YOUR_ID",
-#     ".ASPXAUTH": "YOUR_AUTH"
-# }
-
-# # Paths based on your screenshot structure
-# process_dtu_pdfs(
-#     url_file=r"C:\Users\botyu\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Arbejde\Projekter\Rejsedokument_chatbot\manual_download_list.txt", 
-#     output_dir=r"C:\Users\botyu\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Arbejde\Projekter\Rejsedokument_chatbot\dtu_training_data_pdf", 
-#     cookies=my_cookies
-# )

@@ -109,11 +109,3 @@ async def run_smart_pipeline(hub_urls, project_root=None):
                     print(f"FAIL: {url}")
             except Exception as e:
                 print(f"Error on {url}: {e}")
-
-# if __name__ == "__main__":
-#     dtu_hubs = [
-#         "https://www.inside.dtu.dk/oekonomi/afregning-af-udgifter-og-rejser",
-#         "https://www.inside.dtu.dk/oekonomi/tjenesterejser-og-transport"
-#     ]
-#     project_root = r"C:\Users\botyu\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Arbejde\Projekter\Rejsedokument_chatbot"
-#     asyncio.run(run_smart_pipeline(dtu_hubs, project_root=project_root))

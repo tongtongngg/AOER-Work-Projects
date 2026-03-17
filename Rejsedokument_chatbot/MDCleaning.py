@@ -118,20 +118,3 @@ def combine_all_sources(cleaned_folder, pdf_folder, output_master_file):
 
     print(f"\nFinal Success! Combined {combined_count} files into '{output_master_file}'.")
 
-# if __name__ == "__main__":
-#     # Base path for your project
-#     base_path = r"C:\Users\botyu\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Arbejde\Projekter\Rejsedokument_chatbot"
-
-#     # Input Folders
-#     source_web_dir = os.path.join(base_path, "dtu_training_data")
-#     source_pdf_dir = os.path.join(base_path, "dtu_training_data_pdf")
-    
-#     # Output Folders
-#     cleaned_web_dir = os.path.join(base_path, "cleaned_dtu_data")
-#     final_master_file = os.path.join(base_path, "dtu_training_master.md")
-
-#     # Step 1: Clean the web files (dtu_training_data -> cleaned_dtu_data)
-#     process_dtu_files(source_web_dir, cleaned_web_dir)
-
-#     # Step 2: Combine everything (cleaned_dtu_data + dtu_training_data_pdf -> master.md)
-#     combine_all_sources(cleaned_web_dir, source_pdf_dir, final_master_file)
