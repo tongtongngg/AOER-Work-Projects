@@ -24,7 +24,7 @@ For at Copilot Agenten kan behandle din timeoversigt har den brug for to filer s
 Python-scriptet, som udfører al behandling, beregning og formatering.
 
 Download RUNME.py her:
-[Download RUNME.py](https://raw.githubusercontent.com/tongtongngg/AOER-Work-Projects/main/CopilotTimeoversigt/RUNME.py)
+[Download latest version](https://github.com/tongtongngg/AOER-Work-Projects/releases/latest)
 
 
 ### **2. RUNME.py (Python-behandlingsfil)**  
