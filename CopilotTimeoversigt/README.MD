@@ -20,17 +20,21 @@ Værktøjet automatiserer de centrale beregninger i forbindelse med timeoversigt
 
 For at Copilot Agenten kan behandle din timeoversigt har den brug for to filer som du skal uploade i chatten. 
 
-### **1. Rådata fra Fusion (CSV-format)**  
-Python-scriptet, som udfører al behandling, beregning og formatering.
-
-Download RUNME.py her:
-> [!IMPORTANT]
-> **[Download latest version](https://github.com/tongtongngg/AOER-Work-Projects/releases/download/v1.0/RUNME.py)**
-
-
 ### **2. RUNME.py (Python-behandlingsfil)**  
 Agenten bruger denne fil til at udføre al beregning og formatlogik.
-Download vejledning til at trække data fra Fusion:
+
+Download RUNME.py her:
+
+> **[Download seneste version](https://github.com/tongtongngg/AOER-Work-Projects/releases/download/v1.0/RUNME.py)**
+
+
+### **1. Rådata fra Fusion (CSV-format)**  
+Rådataen trækkes fra Fusion som en CSV fil. En download guide for det kan findes ved at trykke på linket neden under.
+Udover det indeholder linket også hele brugervejledningen med billeder.
+Download vejledningen her:
+
+> **[Download seneste vejledning](https://github.com/tongtongngg/AOER-Work-Projects/releases/download/v1.0/VejledningCopilot.pdf)**
+
 
 *OBS:* Filen skal eksporteres som **CSV**, ikke Excel.
 
@@ -40,20 +44,23 @@ Download vejledning til at trække data fra Fusion:
 
 ## Sådan bruger du værktøjet i Copilot Agenten
 
-1. Åbn Copilot Agenten: *DTU Automatisk Timeoversigt*.  
-2. Upload **CSV-filen** og **RUNME.py** i samme besked.  
-3. Skriv:  
-   **“Kør timeoversigten.”**  
-4. Vent på, at agenten:  
-   - Læser begge filer  
-   - Kører Python-koden  
-   - Genererer din Excel-fil  
-   - Foretager kvalitetstjek  
-   - Returnerer download-linket
+1. **Åbn Copilot Agenten: *DTU Automatisk Timeoversigt***.  
+2. **Upload filer:** Vedhæft både **CSV-filen** og **RUNME.py** i den samme besked.  
+3. **Aktiver processen:** Skriv følgende kommando i chatten:
 
-*OBS:* Det kan tage et par minutter for Copilot agenten at generere timeoversigten. 
+> ### **`Kør timeoversigten.`**
+
+4. **Vent på behandlingen:** Agenten vil nu automatisk:  
+   * Læse begge filer  
+   * Afvikle Python-koden  
+   * Generere din færdige Excel-fil  
+   * Foretage kvalitetstjek  
+   * Returnere et direkte download-link
 
 ---
+
+> [!NOTE]
+> **OBS:** Det kan tage et par minutter for Copilot agenten at generere den fulde timeoversigt. Giv den tid til at færdiggøre beregningerne.
 
 
 ## Link til Copilot Agenten for automatisk behandling
