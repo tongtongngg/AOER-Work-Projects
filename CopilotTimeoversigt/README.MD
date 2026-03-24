@@ -16,11 +16,13 @@ Værktøjet automatiserer de centrale beregninger i forbindelse med timeoversigt
 
 ---
 
+<br>
+
 ## Brugervejledning
 
 For at Copilot Agenten kan behandle din timeoversigt har den brug for to filer som du skal uploade i chatten. 
 
-### **2. RUNME.py (Python-behandlingsfil)**  
+### **1. RUNME.py (Python-behandlingsfil)**  
 Agenten bruger denne fil til at udføre al beregning og formatlogik.
 
 Download RUNME.py her:
@@ -28,7 +30,7 @@ Download RUNME.py her:
 > **[Download seneste version](https://github.com/tongtongngg/AOER-Work-Projects/releases/download/v1.0/RUNME.py)**
 
 
-### **1. Rådata fra Fusion (CSV-format)**  
+### **2. Rådata fra Fusion (CSV-format)**  
 Rådataen trækkes fra Fusion som en CSV fil. En download guide for det kan findes ved at trykke på linket neden under.
 Udover det indeholder linket også hele brugervejledningen med billeder.
 Download vejledningen her:
@@ -65,7 +67,11 @@ Download vejledningen her:
 
 
 ## Link til Copilot Agenten for automatisk behandling
+> **[Copilot Agent link](https://m365.cloud.microsoft/chat/?titleId=T_0fe64bcc-3205-af7a-37d0-1f3927a96023&source=embedded-builder)**
 
+*OBS:* Virker kun for medarbejdere og studerende med en DTU-mail
+
+<br>
 
 
 ## Funktioner
