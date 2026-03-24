@@ -1,8 +1,54 @@
 # DTU Automatisk Timeoversigt
 
-Dette værktøj behandler dataudtræk fra Fusion for automatisk at beregne og fordele medarbejdertimer. Det giver et strømlinet overblik over normtid, planlægningsgrader og sektionsopdelte opsummeringer.
+Dette værktøj behandler dataudtræk fra Fusion for automatisk at beregne og fordele medarbejdertimer. Det giver et optimeret overblik over normtid, planlægningsgrader og sektionsopdelte opsummeringer.
+
+
+## Formål
+
+Værktøjet automatiserer de centrale beregninger i forbindelse med timeoversigter:
+
+- Beregning af normtid pr. medarbejder  
+- Planlægningsgrader  
+- Fordeling af timer på UK-koder  
+- Automatisk opsummering pr. sektion  
+- Identifikation af datamæssige problemer (DATA ISSUES)  
+- Visuel formatering (trafiklys, talformatering m.m.)
 
 ---
+
+## Brugervejledning
+
+For at Copilot Agenten kan behandle din timeoversigt har den brug for to filer som du skal uploade i chatten. 
+
+### **1. Rådata fra Fusion (CSV-format)**  
+Python-scriptet, som udfører al behandling, beregning og formatering.
+
+Download RUNME.py her:
+[Download RUNME.py](https://github.com/tongtongngg/AOER-Work-Projects/raw/main/CopilotTimeoversigt/RUNME.py?download=)
+
+
+### **2. RUNME.py (Python-behandlingsfil)**  
+Agenten bruger denne fil til at udføre al beregning og formatlogik.
+Download vejledning til at trække data fra Fusion:
+
+*OBS:* Filen skal eksporteres som **CSV**, ikke Excel.
+
+
+## Sådan bruger du værktøjet i Copilot Agenten
+
+1. Åbn Copilot Agenten: *DTU Automatisk Timeoversigt*.  
+2. Upload **CSV-filen** og **RUNME.py** i samme besked.  
+3. Skriv:  
+   **“Kør timeoversigten.”**  
+4. Vent på, at agenten:  
+   - Læser begge filer  
+   - Kører Python-koden  
+   - Genererer din Excel-fil  
+   - Foretager kvalitetstjek  
+   - Returnerer download-linket
+
+---
+*OBS:* Det kan tage et par minutter for Copilot agenten at generere timeoversigten. 
 
 ## Funktioner
 
