@@ -63,6 +63,7 @@ Download vejledningen her:
 > **OBS:** Det kan tage et par minutter for Copilot agenten at generere den fulde timeoversigt. Giv den tid til at færdiggøre beregningerne.
 
 
+
 ## Link til Copilot Agenten for automatisk behandling
 
 
