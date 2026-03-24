@@ -24,7 +24,7 @@ For at Copilot Agenten kan behandle din timeoversigt har den brug for to filer s
 Python-scriptet, som udfører al behandling, beregning og formatering.
 
 Download RUNME.py her:
-[Download RUNME.py](https://github.com/tongtongngg/AOER-Work-Projects/raw/main/CopilotTimeoversigt/RUNME.py?download=)
+[![Download RUNME.py](https://img.shields.io/badge/Download-RUNME.py-blue?style=for-the-badge&logo=python&logoColor=white)](https://raw.githubusercontent.com/tongtongngg/AOER-Work-Projects/main/CopilotTimeoversigt/RUNME.py)
 
 
 ### **2. RUNME.py (Python-behandlingsfil)**  
@@ -32,6 +32,9 @@ Agenten bruger denne fil til at udføre al beregning og formatlogik.
 Download vejledning til at trække data fra Fusion:
 
 *OBS:* Filen skal eksporteres som **CSV**, ikke Excel.
+
+
+---
 
 
 ## Sådan bruger du værktøjet i Copilot Agenten
@@ -47,8 +50,14 @@ Download vejledning til at trække data fra Fusion:
    - Foretager kvalitetstjek  
    - Returnerer download-linket
 
----
 *OBS:* Det kan tage et par minutter for Copilot agenten at generere timeoversigten. 
+
+---
+
+
+## Link til Copilot Agenten for automatisk behandling
+
+
 
 ## Funktioner
 
@@ -78,6 +87,3 @@ Værktøjet behandler udtræk fra Fusion og genererer automatisk følgende:
 | **Normtid** | Beregnes som: $\text{Ansættelsesgrad} \times \text{Måneder ansat}$ |
 | **Datafejl** | Rækker med manglende stamdata flyttes automatisk til arket "Data Issues". |
 
----
-
-## Link til Copilot Agenten for automatisk behandling
