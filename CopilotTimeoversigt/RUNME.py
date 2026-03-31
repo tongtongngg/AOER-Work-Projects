@@ -29,6 +29,7 @@ from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font
 from openpyxl.utils import get_column_letter
 from openpyxl.styles import Alignment
+import csv
 
 # VISUEL+ farver
 DETAIL_CALC_BLUE = "FFEAF2FF"
@@ -212,8 +213,19 @@ def write_excel(path, sheet1, sek, issues, banner):
 
 
 def run_pipeline(csv_path, out_path, institute_hint=None):
-    df=pd.read_csv(csv_path,sep=';')
-    df.columns=[c.strip() for c in df.columns]
+    # Read a sample of the file to auto-detect the delimiter
+    with open(csv_path, 'r', encoding='utf-8-sig', errors='replace') as f:
+        sample = f.read(2048)
+        try:
+            # Sniff for comma, semicolon, or colon
+            dialect = csv.Sniffer().sniff(sample, delimiters=',;:')
+            delimiter = dialect.delimiter
+        except csv.Error:
+            delimiter = ';'  # Fallback to semicolon if detection fails
+
+    # Load the dataframe using the detected delimiter
+    df = pd.read_csv(csv_path, sep=delimiter)
+    df.columns = [str(c).strip() for c in df.columns]
     if 'Year' in df.columns: df=df[df['Year'].astype(str).str.contains('2026')]
 
     # Beløb til tal
