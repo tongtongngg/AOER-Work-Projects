@@ -1,6 +1,6 @@
 # DTU Retningslinjer for Tjenesterejser og Udgiftsafregning
 
-Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, transport, udgiftsafregning og kreditkortstyring på DTU. Retningslinjerne er baseret på statens tjenesterejseaftale, Satsreguleringscirkulæret og DTU's egne interne regler.
+Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, transport, udgiftsafregning og kreditkortstyring på DTU. Retningslinjerne er baseret på statens tjenesterejseaftale, Satsreguleringscirkulæret pr. 1. januar 2026 og DTU's egne interne regler.
 
 ---
 
@@ -46,7 +46,7 @@ Inden du påbegynder en tjenesterejse, skal du gennemføre følgende trin:
 1. **Få rejsen godkendt** af din nærmeste leder.
 2. **Ansøg om rejseforsikringskort** hos Europæiske Rejseforsikring (ERV) via DTU's rejseforsikringsordning.
 3. **Bestil fly, hotel og evt. billeje** via CWT (Carlson Wagonlit Travel) — se [afsnit 3](#3-booking-af-rejse-og-overnatning).
-4. **Afklar godtgørelsesmetoden** — time-/dagpenge, procentgodtgørelse eller refusion af dokumenterede udgifter — se [afsnit 4](#4-godtgørelsesmetoder).
+4. **Afklar godtgørelsesmetoden** med din enhed — time-/dagpenge, procentgodtgørelse eller refusion af dokumenterede udgifter — se [afsnit 4](#4-godtgørelsesmetoder).
 5. **Har du en kronisk sygdom eller er syg op til afrejse**, kontakt Europæiske ERV for at sikre, at rejseforsikringen dækker.
 6. **Medbringer du særligt udstyr**, der skal forsikres, kontakt Jura og Kontrakter (AFRI) i god tid.
 
@@ -73,11 +73,11 @@ Udgangspunktet er altid **billigste billet (economy-klasse)**. Afvigelser kræve
 | Situation | Tilladt billetklasse | Krav |
 |---|---|---|
 | Standard | Economy | — |
-| Flyvning over 6 timer, arbejdsindsats inden for 12 timer efter landing | Op til business class | Forhåndsgodkendelse fra institutdirektøren. Skal begrundes ved afregning i DTU Fusion. Jf. DTU's 2026 Bæredygtighedspolitik er dette sekundært — det foretrækkes at rejse dagen før. |
+| Flyvning over 6 timer, arbejdsindsats inden for 12 timer efter landing | Op til business class | Forhåndsgodkendelse fra institutdirektøren. Skal begrundes ved afregning i DTU Fusion. Det foretrækkes at rejse dagen før, da dette oftest vil være en bedre løsning – også selv om det medfører en ekstra overnatning. |
 | Individuelle helbreds-/sundhedsmæssige behov | Op til nødvendig klasse | Institutdirektørens godkendelse. Lægeerklæring kan kræves. |
 | **Første klasse** | **Aldrig tilladt** | — |
 
-> **Bemærk:** Arbejdsindsats i denne sammenhæng betyder deltagelse i møde, undervisning eller foredrag. Deltagelse i seminarer, konferencer eller udstillinger tæller ikke som "arbejdsindsats" i denne definition.
+> **Bemærk:** Arbejdsindsats i denne sammenhæng betyder deltagelse i møde, undervisning eller afholdelse af foredrag. Deltagelse i seminarer, konferencer eller udstillinger tæller ikke som "arbejdsindsats" i denne definition.
 
 Hvis den ønskede flyvning ikke tilbydes af CWT, kan den bookes hos en anden udbyder.
 
@@ -99,7 +99,7 @@ Overnatning bookes som udgangspunkt via CWT. Følgende undtagelser er tilladt, s
 
 ## 4. Godtgørelsesmetoder
 
-DTU dækker merudgifter på tjenesterejser via én af tre metoder. **Medarbejderen vælger selv** mellem time-/dagpenge og procentgodtgørelse. Enheden kan anbefale den billigste løsning, men kan ikke påbyde et valg.
+DTU dækker merudgifter på tjenesterejser via én af tre metoder. **Det er enheden, der fastlægger, hvilken metode der bruges ved tjenesterejser** — du kan som udgangspunkt ikke selv vælge. Er du i tvivl om, hvilken metode din enhed bruger, kan du spørge din lokale superbruger, før du afregner.
 
 | Metode | Gælder ved | Måltider | Småfornødenheder | Lokal transport |
 |---|---|---|---|---|
@@ -122,7 +122,59 @@ Time-/dagpenge udbetales som en fast sats pr. døgn og dækker alle forplejnings
 | Aftensmad | 30 % | — |
 | Småfornødenheder og lokal transport | 25 % | Kaffe, frugt, avis, bus, tog, taxa |
 
-- Gratis måltider (fx hotelmorgenmad, mødeforplejning, konferencemiddag) skal markeres i udgiftsrapporten i DTU Fusion, og satsen nedsættes tilsvarende.
+**Gældende satser pr. 1. januar 2026 (Danmark og Færøerne):**
+
+| | Beskrivelse | Dagpenge | Timepenge |
+|---|---|---|---|
+| I | Ureducerede satser | 538,00 kr. | 22,42 kr. |
+| II | Reduceret med 1/4 i Danmark (fra dag 29) | 403,50 kr. | 16,81 kr. |
+| III | Reduceret med 1/6 på Færøerne (fra dag 29) | 448,33 kr. | 18,68 kr. |
+
+Satserne kan ved lokal aftale (jf. § 22, stk. 3) være højere, dog aldrig mere end: dagpenge 625,00 kr. og timepenge 26,04 kr. (ureduceret).
+
+**Gældende satser pr. 1. januar 2026 (udlandet og Grønland):**
+
+Standardsatsen for udlandet og Grønland er **625 kr. pr. døgn**. For nedenstående lande gælder lavere satser:
+
+| Land | Dagpenge (kr.) |
+|---|---|
+| **Europa** | |
+| Bulgarien | 466 |
+| Slovakiet | 446 |
+| **Afrika** | |
+| Mozambique | 419 |
+| Sydafrika | 347 |
+| Tunesien | 496 |
+| Zambia | 476 |
+| Zimbabwe | 360 |
+| Ægypten | 481 |
+| **Amerika** | |
+| Bolivia | 360 |
+| Colombia | 476 |
+| Cuba | 503 |
+| **Asien** | |
+| Bangladesh | 476 |
+| Bhutan | 263 |
+| Indien | 347 |
+| Iran | 360 |
+| Malaysia | 352 |
+| Nepal | 292 |
+| Pakistan | 298 |
+| Thailand | 430 |
+
+**Måltidsfradrag ved gratis måltider:**
+
+Gratis måltider (fx hotelmorgenmad, mødeforplejning, konferencemiddag) skal markeres i udgiftsrapporten i DTU Fusion, og satsen nedsættes tilsvarende:
+
+| Måltid | Fradrag |
+|---|---|
+| Morgenmad | 15 % af dagpengesatsen |
+| Frokost | 30 % af dagpengesatsen |
+| Middag | 30 % af dagpengesatsen |
+| Fuld kost (alle tre måltider) | 75 % af dagpengesatsen |
+
+*Eksempel ved ureduceret sats 538,00 kr.: morgenmad 80,70 kr., frokost 161,40 kr., middag 161,40 kr., fuld kost 403,50 kr.*
+
 - De gældende satser reguleres hvert år den **1. januar** og fremgår af Satsreguleringscirkulæret.
 - Du må **ikke** bruge DTU kreditkort til udgifter, der er dækket af time-/dagpenge.
 - Du kan **ikke** få refunderet udgifter til forplejning eller lokal transport, hvis du modtager time-/dagpenge.
@@ -140,6 +192,8 @@ Fra den **29. dag** nedsættes time-/dagpengene:
 ### 4.2 Procentgodtgørelse
 
 Procentgodtgørelse gives til dækning af småfornødenheder, mens måltider refunderes på baggrund af faktiske, dokumenterede udgifter.
+
+**Sats pr. 1. januar 2026: 156,25 kr. pr. døgn.**
 
 | Post | Dækning |
 |---|---|
@@ -423,13 +477,17 @@ Bøder, kontrolafgifter og parkeringsafgifter betragtes som **private udgifter**
 
 Kørselsgodtgørelse ydes i henhold til Cirkulære om tjenesterejseaftalen og dækker de **merudgifter**, medarbejderen har i forbindelse med kørsel til et andet sted end sit faste tjenestested.
 
-| Takst | Hvornår |
-|---|---|
-| **Lav takst** | Standardtakst for kørsel i privat bil eller motorcykel |
-| **Høj takst** | Kræver en formel bemyndigelse — se nedenfor |
-| **Lav takst (altid)** | Kørsel i udlandet, og samlet statskørsel over 20.000 km i et kalenderår |
+**Gældende takster pr. 1. januar 2026:**
 
-De gældende takster fremgår af Satsreguleringscirkulæret og reguleres hvert år den **1. januar**.
+| Paragraf | Beskrivelse | Sats |
+|---|---|---|
+| § 14 | Almindelig godkendt kørsel (lav takst) | 2,28 kr. pr. km |
+| § 15 | Kørsel med bemyndigelse — indtil 20.000 km i et kalenderår (høj takst) | 3,94 kr. pr. km |
+| § 15 | Kørsel med bemyndigelse — ud over 20.000 km i et kalenderår | 2,28 kr. pr. km |
+| § 16 | Kørsel i udlandet | 2,28 kr. pr. km |
+| § 17 | Knallerter og cykler | 0,64 kr. pr. km |
+
+Taksterne reguleres hvert år den **1. januar** og fremgår af Satsreguleringscirkulæret.
 
 ### 8.3 Bemyndigelse til kørsel efter høj takst
 
@@ -491,9 +549,10 @@ Eksterne — herunder censorer, studerende, tidligere ansatte og emeriti — kan
 En ekstern person kan få:
 
 - **Refunderet dokumenterede udgifter** til rejse, transport, forplejning og ophold.
+- **Udbetalt time-/dagpenge** (kan være skattefrit eller skattepligtigt).
 - **Udbetalt kilometergodtgørelse** (kan være skattefrit eller skattepligtigt).
 
-> **Bemærk:** Eksterne kan **ikke** modtage time-/dagpenge. Al refusion sker udelukkende på baggrund af faktiske, dokumenterede udgifter med originale kvitteringer eller fakturaer.
+Hvis der udbetales time-/dagpenge, kan der ikke samtidig refunderes udgifter til forplejning.
 
 Rejse-, forplejnings- og opholdsudgifter for eksterne bør **ikke overstige** det generelle beløbsmæssige niveau, der gælder for DTU-ansatte.
 
@@ -524,15 +583,33 @@ En tjenesterejse, der varer **mere end 28 dage**, betragtes som en **udstationer
 
 ### 11.1 Nedsatte satser fra dag 29
 
-Fra den 29. dag nedsættes time-/dagpengene:
+Fra den 29. dag nedsættes time-/dagpengene og logisatserne:
+
+**Time-/dagpenge:**
 
 | Destination | Nedsættelse fra dag 29 |
 |---|---|
-| Danmark | 1/4 |
-| Færøerne | 1/6 |
+| Danmark | 1/4 (fra 538,00 kr. til 403,50 kr.) |
+| Færøerne | 1/6 (fra 538,00 kr. til 448,33 kr.) |
 | Andre lande og Grønland | Ingen nedsættelse |
 
-Nedsættelsen skyldes, at et længerevarende ophold betragtes som mere permanent, og at det forventes, at der kan findes billigere løsninger til kost og logi end på kortere rejser. **Bemærk:** Både dagpenge- og logisatser ændrer sig fra dag 29 — kontakt Koncern HR for de gældende satser ved udstationering.
+**Hoteldispositionsbeløb (logi):**
+
+| Destination | Nedsættelse fra dag 29 |
+|---|---|
+| Danmark | 1/4 (fra 1.844 kr. til 1.383 kr.) |
+| Færøerne | 1/6 (fra 1.576 kr. til 1.313 kr.) |
+| Udlandet og Grønland | 1/4 |
+
+**Udokumenteret nattillæg:**
+
+| | Ureduceret sats | Reduceret fra dag 29 |
+|---|---|---|
+| Danmark | 268,00 kr. | 201,00 kr. (–1/4) |
+| Færøerne | 268,00 kr. | 223,33 kr. (–1/6) |
+| Udlandet og Grønland | 268,00 kr. | 201,00 kr. (–1/4) |
+
+Nedsættelsen skyldes, at et længerevarende ophold betragtes som mere permanent, og at det forventes, at der kan findes billigere løsninger til kost og logi end på kortere rejser.
 
 ### 11.2 Hvad du skal gøre
 
@@ -564,7 +641,7 @@ Alle ansatte på DTU er automatisk dækket, herunder:
 
 **Undtaget fra dækning:**
 
-- Rejser inden for Rigsfællesskabet (Danmark, Grønland og Færøerne) samt rejser mellem Bornholm og resten af Danmark via Sverige — disse er i stedet dækket af DTU's almindelige arbejdsgiverforsikring.
+- Rejser inden for Rigsfællesskabet **(Danmark, Grønland og Færøerne)** samt rejser mellem Bornholm og resten af Danmark via Sverige — disse er i stedet dækket af DTU's **almindelige arbejdsgiverforsikring**.
 - **Private feriedage** i forlængelse af en tjenesterejse.
 
 ### 12.3 Kombinerede tjeneste- og privatrejser
@@ -679,4 +756,4 @@ Den fulde superbrugerliste kan søges på DTU Inside.
 
 ---
 
-*Disse retningslinjer er baseret på statens Cirkulære om tjenesterejseaftalen, Satsreguleringscirkulæret samt DTU's interne regler (DTU DOC: 16/10281). Satserne reguleres hvert år den 1. januar. Kontakt AØR ved tvivl om aktuelle satser.*
+*Disse retningslinjer er baseret på statens Cirkulære om tjenesterejseaftalen, Satsreguleringscirkulæret pr. 1. januar 2026 (Medst.nr. 119-25) samt DTU's interne regler (DTU DOC: 16/10281). Satserne reguleres hvert år den 1. januar. Kontakt AØR ved tvivl om aktuelle satser.*
