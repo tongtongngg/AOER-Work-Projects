@@ -2,6 +2,7 @@ import asyncio
 import os
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
+import json
 
 async def run_smart_pipeline(base_url, project_root=None):
     # Paths
@@ -53,6 +54,23 @@ async def run_smart_pipeline(base_url, project_root=None):
         loop = asyncio.get_event_loop()
         await loop.run_in_executor(None, input, "Press ENTER after you have verified the page is loaded...")
 
+        formatted_cookies = {}
+        try:
+            # 1. Get the browser object from the strategy
+            browser = crawler.crawler_strategy.browser
+            
+            if browser and browser.contexts:
+                # 2. Grab cookies from the first context
+                # (Since you're using use_persistent_context, this is where your login lives)
+                playwright_cookies = await browser.contexts[0].cookies()
+                formatted_cookies = {c['name']: c['value'] for c in playwright_cookies}
+                print(f"Successfully captured {len(formatted_cookies)} session cookies.")
+            else:
+                print("Warning: Browser context not found. PDFs might not download correctly.")
+        except Exception as e:
+            print(f"Error extracting cookies: {e}")
+            print("The script will continue, but PDF downloads might fail if authentication is required.")
+
         # --- HIERARCHICAL CRAWL PHASE ---
         visited = set()
         queue = [base_url]
@@ -95,17 +113,26 @@ async def run_smart_pipeline(base_url, project_root=None):
                     
                     # Find deeper links to scrape
                     links = result.links.get("internal", [])
+                    
+                    # Define words or paths you want to completely ignore
+                    ignore_paths = ["/covid-19"] 
+                    
                     for link in links:
-                        # Get the link and strip out any anchor tags (e.g. #section) to avoid duplicates
+                        # Get the link and strip out any anchor tags
                         href = link.get("href", "").split('#')[0]
                         
-                        # THE MAGIC FILTER: Only queue links that start with your base_url
-                        if href.startswith(base_url) and href not in visited and href not in queue:
-                            if href.lower().endswith(".pdf"):
-                                if href not in pdf_links:
-                                    pdf_links.append(href)
-                            else:
-                                queue.append(href)
+                        # NEW: If the link contains any of our ignored paths, skip it entirely
+                        if any(ignored in href.lower() for ignored in ignore_paths):
+                            continue
+                        
+                        # 1. Is it a PDF? Grab it regardless of where it is hosted!
+                        if href.lower().endswith(".pdf"):
+                            if href not in pdf_links:
+                                pdf_links.append(href)
+                        
+                        # 2. Is it a web page? Only queue it if it's deeper in our specific hierarchy
+                        elif href.startswith(base_url) and href not in visited and href not in queue:
+                            queue.append(href)
                 else:
                     print(f"  -> FAIL: {current_url}")
             except Exception as e:
@@ -120,3 +147,5 @@ async def run_smart_pipeline(base_url, project_root=None):
             print(f"\nLOGGED: {len(pdf_links)} PDF links saved to {pdf_log_file}")
             
         print(f"\nCrawl complete! Processed {len(visited)} pages.")
+
+        return formatted_cookies # <--- Add this
