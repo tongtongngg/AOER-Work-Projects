@@ -482,8 +482,8 @@ Kørselsgodtgørelse ydes i henhold til Cirkulære om tjenesterejseaftalen og d�
 | Paragraf | Beskrivelse | Sats |
 |---|---|---|
 | § 14 | Almindelig godkendt kørsel (lav takst) | 2,28 kr. pr. km |
-| § 15 | Kørsel med bemyndigelse — indtil 20.000 km i et kalenderår (høj takst) | 3,94 kr. pr. km |
-| § 15 | Kørsel med bemyndigelse — ud over 20.000 km i et kalenderår | 2,28 kr. pr. km |
+| § 15 | Kørsel i henhold til bemyndigelse — indtil 20.000 km i et kalenderår (høj takst) | 3,94 kr. pr. km |
+| § 15 | Kørsel i henhold til bemyndigelse — ud over 20.000 km i et kalenderår | 2,28 kr. pr. km |
 | § 16 | Kørsel i udlandet | 2,28 kr. pr. km |
 | § 17 | Knallerter og cykler | 0,64 kr. pr. km |
 
