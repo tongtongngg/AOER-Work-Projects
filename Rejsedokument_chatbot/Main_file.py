@@ -7,7 +7,7 @@ from MDCleaning import process_dtu_files, combine_all_sources
 
 async def main():
     # --- CONFIGURATION ---
-    project_root = r"C:\Users\botyu\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Arbejde\Projekter\Rejsedokument_chatbot"
+    project_root = os.path.dirname(os.path.abspath(__file__))
     
     my_hubs = [
         "https://www.inside.dtu.dk/oekonomi/afregning-af-udgifter-og-rejser",

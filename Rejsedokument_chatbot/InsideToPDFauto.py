@@ -3,6 +3,21 @@ import os
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 
+def _is_login_page(result):
+    login_url_indicators = ["login", "adfs", "signin", "microsoftonline", "auth"]
+    login_content_indicators = ["sign in", "log in", "password", "microsoft account", "log på", "log ind"]
+
+    url = (result.url or "").lower()
+    if any(indicator in url for indicator in login_url_indicators):
+        return True
+
+    content = (result.markdown.raw_markdown if result.markdown else "").lower()
+    if len(content) < 2000 and any(indicator in content for indicator in login_content_indicators):
+        return True
+
+    return False
+
+
 async def run_smart_pipeline(hub_urls, project_root=None):
     # Paths
     if not project_root or not os.path.isdir(project_root):
@@ -54,7 +69,7 @@ async def run_smart_pipeline(hub_urls, project_root=None):
 
         to_crawl = []
         pdf_links = []
-        keywords = ["oekonomi", "rejser", "udgifter", "afregning"]
+        keywords = ["oekonomi", "afregning", "rejser", "udgifter", "transport", "kørsel", "taxa", "kreditkort", "CWT", "fly", "afregning", "godtgørelse"]
 
         # Phase 1: Scan Hubs for links
         for hub_url in hub_urls:
@@ -92,10 +107,16 @@ async def run_smart_pipeline(hub_urls, project_root=None):
             try:
                 await asyncio.sleep(2) # Natural delay to help page load
                 result = await crawler.arun(url=url, config=run_config)
-                
+
+                if result.success and _is_login_page(result):
+                    print(f"\n!!! LOGIN REQUIRED: {url_slug} redirected to a login page.")
+                    print("Please log in in the browser window, then press ENTER to retry...")
+                    await loop.run_in_executor(None, input, "Press ENTER after logging in...")
+                    result = await crawler.arun(url=url, config=run_config)
+
                 if result.success:
                     content = result.markdown.raw_markdown
-                    
+
                     # If it looks like a 404 or empty redirect, skip it
                     if "404" in content or len(content) < 500:
                         print(f"SKIP: {url_slug} (Likely no access or 404)")

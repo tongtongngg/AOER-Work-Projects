@@ -16,16 +16,12 @@ For at din udgiftsrapport kan behandles hurtigt og korrekt, er det vigtigt, at a
   10. Original fly- og hotelbooking gebyr fakturaer fra CWT (se nedenstående eksempel) skal vedhæftes. Original hotelfaktura fra hotellet, som man modtog da man tjekkede ud, skal også vedhæftes til udgiftsrapporten.
 
 
-Opdateret 09 marts 2026
+Opdateret 19 marts 2026
 
 
 --- DOCUMENT (WEB SOURCE): afregning-af-udgifter-for-eksterne.md ---
 
 *     * 
-
-
-
-
 
 #  Afregning af udgifter for eksterne 
 Eksterne, herunder censorer, studerende, tidligere ansatte og emeriti, kan få godtgjort rejse- og opholdsudgifter efter aftale med DTU.
@@ -50,86 +46,17 @@ Brug for hjælp til afregning af eksterne?
 Har du spørgsmål til afregning af udgifter eller honorar for eksterne, skal du kontakte **din lokale superbruger.  
 **  
 Superbrugerne kan hjælpe med både regler og brug af eForms.
-Find din superbruger her:
+###  Find din superbruger her:
 ### Indholdsansvarlig
 Heidi Bielefeldt Teamleder Afdelingen for Økonomi og Regnskab  hep@adm.dtu.dk
-Opdateret 11 marts 2026 
+Opdateret 18 marts 2026 
 ### Sider under denne
-
-
---- DOCUMENT (WEB SOURCE): afregning-af-udgifter-og-rejser.md ---
-
-*     *     *     *     *     * 
-
-
-
-
-
-
-#  Afregning af udgifter og rejser 
-Få overblik over, hvordan du afregner udgifter, udlæg og rejser på DTU. På siden finder du information om frister, roller og proces i DTU Fusion
-Udgifter, der ikke betales via en indkøbsordre, skal afregnes i en udgiftsrapport i DTU Fusion. Det gælder fx udgifter i forbindelse med dit arbejde på DTU som rejser, udlæg eller køb foretaget med DTU-kreditkort.
-Eksempler på udgifter, der skal afregnes:
-  * Rejser og transport bestilt via DTU’s rejseudbyder (CWT)
-  * Udlæg, hvor du selv har lagt ud, og DTU skal dække omkostningen
-  * Brug af DTU kreditkort
-  * Kørselsgodtgørelse
-  * Rejsegodtgørelse
-
-
-### Hvornår skal der afregnes?
-Uanset hvilket udgift du har haft, skal afregning af kreditkortkøb, udlæg og tjenesterejser skal ske**senest 30 dage** efter hjemkomst eller købet.
-Hvis udgifterne vedrører én rejse, skal de samles i én udgiftsrapport, som først afregnes, når rejsen er afsluttet.
-Herunder finder du information om, hvem der har ansvar for hvad i processen.
-### Roller og ansvar
-#### Rolle 
-| 
-#### Ansvar  
----|---  
-**Medarbejder** Den person, der har haft en udgift (kan selv have lagt ud for udlægget eller benyttet DTU kreditkort) | 
-  * Udarbejder egen udgiftsrapport eller får hjælp fra en superbruger efter aftale
-  * Sikrer at egen udgiftsrapport er korrekt, hvis en anden person har udarbejdet den
-  * Har ansvaret for at få afregnet udgifter indenfor retningslinjer
-
-  
-**Superbruger** | 
-  * Kan bestille fly, hotel mm. på vegne af andre
-  * Kan udfylde udgiftsrapport på vegne af andre
-  * Følger op på ikke-afregnede transaktioner (kreditkort- og CWT-afregninger) i egen enhed
-
-  
-**Godkender** Den person, som er budgetansvarlig og kan godkende på vegne af DTU | 
-  * Afklarer rammer med medarbejdere
-  * Sikrer at godkendelse sker iht. gældende retningslinjer, lovgivning og godkenderhierarki
-  * Har ansvaret for at informere medarbejdere om de overordnede retningslinjer
-
-  
-**Koncernøkonomi (AØR)** | 
-  * Fastsætter retningslinjer for tjenesterejser, kørsel og udlæg
-  * Foretager regnskabsmæssig kontrol af udgiftsrapporter
-  * Afregner beløb overfor medarbejderen
-
-  
-  
-
-### Få overblik over afregning af udgifter
-
-Brug for hjælp til at afregne udgifter?
-Har du spørgsmål til afregning af udgifter, kan du få hjælp hos **din lokale superbruger.**  
-  
-Superbrugerne kan hjælpe med spørgsmål om regler, dokumentation og brug af systemerne til afregning.  
-  
-Find din superbruger her:
-### Indholdsansvarlig
-Heidi Bielefeldt Teamleder Afdelingen for Økonomi og Regnskab  hep@adm.dtu.dk
-Opdateret 11 marts 2026 
-### Sider under denne
-  *   *   *   *   *
 
 
 --- DOCUMENT (WEB SOURCE): afregning-af-udlaeg-for-ansatte.md ---
 
 *     *     *     *     *     *     * 
+
 
 
 
@@ -142,15 +69,21 @@ Som ansat kan du få dækket dine merudgifter på tre forskellige måder:
   * Procentgodtgørelse dækker småfornødenheder, mens måltider refunderes efter regning
   * Dokumenterede merudgifter refundering af faktiske, dokumenterede udgifter
 
-| **Kendetegn** | **Måltider** | **Små-fornødenheder** | **Lokal transport**  
----|---|---|---|---  
-**Time-/dagpenge** (mere end 24 timer) | Højere sats | Afholdes af medarbejderen | Afholdes af medarbejderen | Afholdes af medarbejderen  
-Medarbejderen afholder som udgangspunkt alle omkostninger | Gratis måltider modregnes i godtgørelsen  
-**Procentgodtgørelse** (mere end 24 timer) | Lavere sats | Rimelige merudgifter mod kvittering | Afholdes af medarbejderen | Afholdes af medarbejderen  
-Måltider refunderes mod kvittering  
-Gratis måltider modregnes ikke  
-Medarbejdere afholder øvrige omkostninger  
-**Dokumenterede merudgifter** | Alle udgifter | Rimelige merudgifter mod kvittering | Rimelige merudgifter mod kvittering | Rimelige merudgifter mod kvittering  
+  
+|   | **Kendetegn**  | **Måltider**  | **Små-fornødenheder**  | **Lokal transport**  |  
+| --- | --- | --- | --- | --- |  
+ |  
+|  **Time-/dagpenge** (mere end 24 timer)  | Højere sats  | Afholdes af medarbejderen  | Afholdes af medarbejderen  | Afholdes af medarbejderen  |  
+| Medarbejderen afholder som udgangspunkt alle omkostninger  | Gratis måltider modregnes i godtgørelsen  |  
+ |  
+ |  
+|  **Procentgodtgørelse** (mere end 24 timer)  | Lavere sats  | Rimelige merudgifter mod kvittering  | Afholdes af medarbejderen  | Afholdes af medarbejderen  |  
+| Måltider refunderes mod kvittering  |  
+| Gratis måltider modregnes ikke  |  
+| Medarbejdere afholder øvrige omkostninger  |  
+ |  
+| **Dokumenterede merudgifter**  | Alle udgifter  | Rimelige merudgifter mod kvittering  | Rimelige merudgifter mod kvittering  | Rimelige merudgifter mod kvittering  |  
+ |  
 Hvillken af de tre godtgørelsesmetoder du skal bruge, afhænger af den enhed, du er ansat på. Enheden fastlægger som udgangspunkt, hvilken metode der skal bruges ved tjenesterejser og udgifter, og du kan derfor ikke selv vælge. Derudover kan de forskellige bevillingsgiveres regler også have indvirkning på, hvad der kan godtgøres.
 Hvis du er i tvivl om, hvilken metode din enhed bruger, kan du spørge din lokale superbruger, før du afregner.
 Uanset godtgørelsesform skal alle udgifter afregnes i DTU Fusion senest 30 dage efter hjemkomst eller købsdatoen jf. regnskabsinstruksen. 
@@ -209,7 +142,7 @@ Driftsomkostninger opfylder ikke anlægskriterierne og øger ikke aktivets værd
 _Listen er ikke udtømmende._
 ### Links
 
-Opdateret 22 januar 2026 
+Opdateret 21 april 2026 
 ### Sider under denne
   *   *   *   *   *
 
@@ -443,12 +376,7 @@ Enhedsøkonomis arbejde tager udgangspunkt i fire hovedleverancer til DTU’s en
 Til hver leverance findes processer og vejledninger, der beskriver opgaver, afhængigheder og tidsfrister. Derudover er roller og ansvar mellem enhederne, business controllere og andre økonomifunktioner beskrevet, så opgaver og snitflader er tydelige.
 ### Kontakt
 Torsten Foersom Områdechef Afdelingen for Økonomi og Regnskab  tofo@adm.dtu.dk
-### Find enhedens business controller
-Se oversigt over, hvilke business controllere der er tilknyttet de enkelte enheder.
-  * Oversigt over business controllere
-
-
-Opdateret 10 februar 2026 
+Opdateret 23 marts 2026 
 ### Sider under denne
   *   *   *   *
 
@@ -463,115 +391,116 @@ Opdateret 11 november 2025
 
 #  Find superbrugere for 'afregne udgifter' 
 For at se, hvem der er dine lokale superbrugere, kan du i søgefeltet skrive din enheds navn.
-Søg efter personer
-Enhed | Navn | E-mail | Titel  
----|---|---|---  
-AØR | Marianne Aagaard Andersen | mariaaa@dtu.dk | Regnskabsmedarbejder  
-DTU Space | Birte Kronbak Andersen | bka@space.dtu.dk | Studie- og uddannelseskoordinator  
-DTU Wind | Maria Telver Andersen | matean@dtu.dk | Administrativ koordinator  
-DTU Engineering Technology | Janne Andersson | janad@dtu.dk | Team-koordinator  
-DTU Kemi | Rasmus Aniol | rawan@kemi.dtu.dk | Administrativ koordinator  
-AKM | Kasper Antonsen | kant@dtu.dk | Kontorchef, Web og Visuel Identitet  
-DTU Wind | Marianne Hjorthede Arbirk | mahj@dtu.dk | Divisionssekretær Wind Turbine Division (WTD)  
-DTU Fysik | Jessica F. Bak | jefepe@dtu.dk | Research Manager  
-DTU Sundhedsteknologi | Susie Grønvad Bermann | susbe@dtu.dk | Administrativ koordinator  
-DTU Space | Lene Bettenhaus | lene@space.dtu.dk | Kontorfuldmægtig  
-DTU Kemiteknik | Anne Louise Biede | alb@kt.dtu.dk | Administrativ koordinator  
-AØR | Heidi Bielefeldt | hep@adm.dtu.dk | Teamleder  
-DTU Aqua | Hanne Moos Bille | hmo@aqua.dtu.dk | Sektionsleder  
-DTU Sundhedsteknologi | Charlotte Bjelke | charbje@dtu.dk | Studentermedhjælper  
-DTU Adgangskursus | Randi Binzer Bjørner | rbb@adk.dtu.dk | Uddannelseskoordinator  
-DTU Fysik | Antonia Celinah Majlund Bjørstorp | acmb@dtu.dk | DanScatt Administrator og Administrativ Koordinator  
-DTU Energi | Elisabeth Boelskifte | elmbo@dtu.dk | Administrativ koordinator  
-DTU Fysik | Birgit Bohn | birbo@fysik.dtu.dk | Chefkonsulent, Administration  
-DTU Fysik | Pernille Åkerlund Bonde | peabo@dtu.dk | Projektkoordinator  
-DTU Learning Lab | Annemette Brydensholt | ambr@dtu.dk | Administrativ medarbejder  
-AUS | Annemette Brydensholt | ambr@dtu.dk | Administrativ medarbejder  
-IT Service | Gitte Brøndum | gira@dtu.dk | Sekretær  
-DTU Electro | Maria Louisa Brügge | mlwe@dtu.dk | Gruppekoordinator  
-DTU Kemi | Maria Bundgaard | mabu@kemi.dtu.dk | ScienceShow Manager & Event Koordinator  
-BRIGHT | Joana Caniçali | jocan@dtu.dk | Project Management Consultant  
-BRIGHT | Marina Leah Cantor | macan@dtu.dk | Project Advisor  
-DTU Aqua | Linda Stuhr Christensen | lschr@aqua.dtu.dk | Sekretær  
-DTU Sundhedsteknologi | Sannie Holmquist Christensen | sahc@dtu.dk | Administrationschef  
-DTU Fysik | Lone Jensen Coe | ljcoe@dtu.dk | Projektkoordinator  
-Rektoratet | Anne Smedegaard Rundin Cordsen | anco@adm.dtu.dk | Specialkonsulent og PA for rektor  
-DTU Fysik | Pernille Dahl-Sørensen | pdso@dtu.dk | Administrationschef  
-AKM | Marianne Geert Dalsgaard | mgd@adm.dtu.dk | Sekretær  
-DTU Offshore | Dorthe Degn | dortj@dtu.dk | PA  
-DTU Fysik | Adaleta Dozo | ada@fysik.dtu.dk | Administativ medarbejder  
-DTU Compute | Ann-Cathrin Dunker | adun@dtu.dk | Administrativ koordinator / DTU Fusion  
-DTU Fysik | Anne Birgitte Tramm Ejdrup | abtej@dtu.dk | Specialkonsulent  
-DTU Fysik | Pia Lone Elhauge | piel@dtu.dk | Administrativ koordinator  
-Rektoratet | Mette Erichsen | meri@adm.dtu.dk | PA og sekretær for Universitetsdirektør og Prorektor  
-DTU Construct | Gerda Helene Fogt | gehf@dtu.dk | Institutsekretær  
-AUS | Tina Rigborg Friisdahl | trf@adm.dtu.dk | AC-fuldmægtig  
-DTU Construct | Annette Frøhling | anete@dtu.dk | Institutsekretær B118, R244  
-DTU Electro | Sara Gibson | sagib@dtu.dk | Sektionskoordinator  
-IT Service | Anne Greenfield | annegee@dtu.dk | Teamleder og PA  
-DTU Fødevareinstituttet | Vibeke Dybdahl Hammer | vdha@food.dtu.dk | Administrativ koordinator  
-DTU Kemiteknik | Birgitte Hannibal | birhan@kt.dtu.dk | Specialkonsulent  
-DTU Space | Anne-Dorthe Hansen | adh@space.dtu.dk | Kontorfuldmægtig  
-BRIGHT | Henriette Hansen | henrha@dtu.dk | Receptionist  
-DTU Wind | Anne-Marie Kantner Hansen | amha@dtu.dk | Divisionssekretær  
-DTU Wind | Josefine G. R. Hansen | fine@dtu.dk | Administrativ koordinator  
-DTU Management | Laila Harms | laihar@dtu.dk | Sekretær  
-AKM | Tine Kjær Hassager | tkh@adm.dtu.dk | Kommunikationsdirektør  
-DTU Electro | Sylvana Heasley | bsyhe@dtu.dk | Gruppekoordinator  
-DTU Energi | Anne Heglingegård | aheg@dtu.dk | Administrativ koordinator (Sekretariatet)  
-CAS | Tina Heiermo | tihei@dtu.dk | Administrativ medarbejder / Indkøbsmedarbejder  
-DTU Skylab | Jesper Bak Henriksen | jebahe@dtu.dk | Administrative Coordinator  
-DTU Management | Ninette Holbech | nihope@dtu.dk | Divisionssekretær  
-DTU Sundhedsteknologi | Helle Tofte Holm | htho@dtu.dk | Afdelingssekretær  
-AFRI | Susanne Holm | susho@dtu.dk | Specialkonsulent  
-DTU Management | Marianne Hougs | marhou@dtu.dk | Divisionssekretær  
-DTU Kemiteknik | Ditte Gry Ishøy | digryi@kt.dtu.dk | Akademisk koordinator  
-DTU Compute | Anette Iversen | anive@dtu.dk | Personale koordinator  
-DTU Aqua | Stine Jensen | stjens@aqua.dtu.dk | Sekretær og studiekoordinator  
-AHR | Agata Ewa Jensen | aewje@dtu.dk | Internal Support Specialist  
-DTU Energi | Christina Stenderup Jensen | chrisj@dtu.dk | Leder af Team Administration  
-DTU Construct | Anna Joensen | anjoe@dtu.dk | Administrativ koordinator  
-DTU Kemiteknik | Anne Helene Juul | ahj@kt.dtu.dk | Studiesekretær  
-DTU Fødevareinstituttet | Anne Jørgensen | anga@food.dtu.dk | Institutsekretær  
-DTU Space | Kaori Kobayashi Jørgensen | kaori@space.dtu.dk | Kontorassistent  
-IT Service | Christopher Kaae | chrkaa@dtu.dk | Administrator  
-DTU Adgangskursus | Anne-Mette Kanstrup | amk@adk.dtu.dk | Studiesekretær  
-DTU Kemiteknik | Dimitar Borisov Karakashev | dbka@kt.dtu.dk | Fundraiser  
-DTU Aqua | Tine Kastrup | tik@aqua.dtu.dk | Overassistent  
-DTU Space | Lizette Kaufmann | lizka@space.dtu.dk | Administrativ medarbejder  
-DTU Wind | Diana Lindholm Kiler | diki@dtu.dk | Administrativ koordinator  
-DTU Management | Mads Kaare Kjellingbro | mkkj@dtu.dk | Administrationschef  
-BRIGHT | Darko Kjiproski | darkip@dtu.dk | Specialkonsulent  
-DTU Fysik | Tine Hougaard Klitmøller | klitmoeller@fysik.dtu.dk | Chefkonsulent, Administration  
-DTU Fødevareinstituttet | Stig Martin Knudsen | stim@food.dtu.dk | Administrativ assistent  
-DTU Learn for Life | Karina Laurberg Knudsen | klakn@dtu.dk | Head of Operations  
-DTU Fødevareinstituttet | Heidi Kornholt | heiko@food.dtu.dk | Administrationschef  
-CAS | Solva Krossa | solkr@dtu.dk | Indkøbsmedarbejder  
-AØR | Lisbet Holde Langenge | lisbet.langenge@deic.dk | Sekretær  
-DTU Wind | Pia Løgstrup Lappin | plla@dtu.dk | Divisionssekretær  
-DTU Learn for Life | Amalie Katrine Larsen | akala@dtu.dk | Operations Assistent  
-DTU Construct | Lis Paludan Larsen | lpala@dtu.dk | Institutsekretær  
-DTU Aqua | Rikke Larsen | rikla@aqua.dtu.dk | Administrativ koordinator  
-CAS | Rikke Howitz Larsen | rilar@dtu.dk | Administrativ medarbejder  
-DTU Fysik | Merete Holmegaard Larsen | mela@dtu.dk | Projektkoordinator - LUMPHYS  
-DTU Compute | Pia Larsson | pial@dtu.dk | Studieadministrativ koordinator  
-DTU Space | Frederikke Emilie Storkehave Lassen | frederikke@space.dtu.dk | Kontorelev  
-DTU Sundhedsteknologi | Dorthe Foss Lillelund | afli@dtu.dk | Kontorfuldmægtig / Studiesekretær  
-DTU Space | Malika Lund-Harris | malilu@dtu.dk | Afdelingssekretær  
-IT Service | Anja Lykke | anjly@dtu.dk | Administrativ medarbejder  
-DTU Kemiteknik | Gitte Læssøe | gnie@kt.dtu.dk | Administrativ koordinator  
-DTU Kemiteknik | Helle Løvind | hello@kt.dtu.dk | Sekretær  
-DTU Bioengineering | Rosalba Albanese Marek | rosama@dtu.dk | Sekretær - Back Office  
-DTU Compute | Lene Matthisson | lemat@dtu.dk | Sekretariatsleder  
-BRIGHT | Gitte Mejlhart | gimej@dtu.dk | Section Secretary  
-DTU Kemiteknik | Hanne Mikkelsen | hami@kt.dtu.dk | Administrativ koordinator  
-DTU Kemiteknik | Eva Mikkelsen | eva@kt.dtu.dk | Forskningskoordinator  
+Søg efter personer  
+| Enhed  | Navn  | E-mail  | Titel  |  
+| --- | --- | --- | --- |  
+| DTU Space  | Birte Kronbak Andersen  | bka@space.dtu.dk  | Studie- og uddannelseskoordinator  |  
+| DTU Wind  | Maria Telver Andersen  | matean@dtu.dk  | Administrativ koordinator  |  
+| AØR  | Marianne Aagaard Andersen  | mariaaa@dtu.dk  | Regnskabsmedarbejder  |  
+| DTU Engineering Technology  | Janne Andersson  | janad@dtu.dk  | Team-koordinator  |  
+| DTU Kemi  | Rasmus Aniol  | rawan@kemi.dtu.dk  | Administrativ koordinator  |  
+| AKM  | Kasper Antonsen  | kant@dtu.dk  | Kontorchef, Web og Visuel Identitet  |  
+| DTU Wind  | Marianne Hjorthede Arbirk  | mahj@dtu.dk  | Divisionssekretær Wind Turbine Division (WTD)  |  
+| DTU Fysik  | Jessica F. Bak  | jefepe@dtu.dk  | Research Manager  |  
+| DTU Sundhedsteknologi  | Susie Grønvad Bermann  | susbe@dtu.dk  | Administrativ koordinator  |  
+| DTU Space  | Lene Bettenhaus  | lene@space.dtu.dk  | Kontorfuldmægtig  |  
+| DTU Kemiteknik  | Anne Louise Biede  | alb@kt.dtu.dk  | Administrativ koordinator  |  
+| AØR  | Heidi Bielefeldt  | hep@adm.dtu.dk  | Teamleder  |  
+| DTU Aqua  | Hanne Moos Bille  | hmo@aqua.dtu.dk  | Sektionsleder  |  
+| DTU Sundhedsteknologi  | Charlotte Bjelke  | charbje@dtu.dk  | Studentermedhjælper  |  
+| DTU Adgangskursus  | Randi Binzer Bjørner  | rbb@adk.dtu.dk  | Uddannelseskoordinator  |  
+| DTU Fysik  | Antonia Celinah Majlund Bjørstorp  | acmb@dtu.dk  | DanScatt Administrator og Administrativ Koordinator  |  
+| DTU Sustain  | Lene Kaas Boeg  | lkbo@dtu.dk  | Sektionsledersekretær  |  
+| DTU Energi  | Elisabeth Boelskifte  | elmbo@dtu.dk  | Administrativ koordinator  |  
+| DTU Fysik  | Birgit Bohn  | birbo@fysik.dtu.dk  | Chefkonsulent, Administration  |  
+| DTU Fysik  | Pernille Åkerlund Bonde  | peabo@dtu.dk  | Projektkoordinator  |  
+| DTU Learning Lab  | Annemette Brydensholt  | ambr@dtu.dk  | Administrativ medarbejder  |  
+| AUS  | Annemette Brydensholt  | ambr@dtu.dk  | Administrativ medarbejder  |  
+| IT Service  | Gitte Brøndum  | gira@dtu.dk  | Sekretær  |  
+| DTU Electro  | Maria Louisa Brügge  | mlwe@dtu.dk  | Gruppekoordinator  |  
+| DTU Kemi  | Maria Bundgaard  | mabu@kemi.dtu.dk  | ScienceShow Manager & Event Koordinator  |  
+| BRIGHT  | Joana Caniçali  | jocan@dtu.dk  | Project Management Consultant  |  
+| BRIGHT  | Marina Leah Cantor  | macan@dtu.dk  | Project Advisor  |  
+| DTU Aqua  | Linda Stuhr Christensen  | lschr@aqua.dtu.dk  | Sekretær  |  
+| DTU Fysik  | Lone Jensen Coe  | ljcoe@dtu.dk  | Projektkoordinator  |  
+| Rektoratet  | Anne Smedegaard Rundin Cordsen  | anco@adm.dtu.dk  | Specialkonsulent og PA for rektor  |  
+| DTU Fysik  | Pernille Dahl-Sørensen  | pdso@dtu.dk  | Administrationschef  |  
+| AKM  | Marianne Geert Dalsgaard  | mgd@adm.dtu.dk  | Sekretær  |  
+| DTU Offshore  | Dorthe Degn  | dortj@dtu.dk  | PA  |  
+| DTU Fysik  | Adaleta Dozo  | ada@fysik.dtu.dk  | Administativ medarbejder  |  
+| DTU Compute  | Ann-Cathrin Dunker  | adun@dtu.dk  | Administrativ koordinator / DTU Fusion  |  
+| DTU Fysik  | Anne Birgitte Tramm Ejdrup  | abtej@dtu.dk  | Specialkonsulent  |  
+| DTU Fysik  | Pia Lone Elhauge  | piel@dtu.dk  | Administrativ koordinator  |  
+| Rektoratet  | Mette Erichsen  | meri@adm.dtu.dk  | PA og sekretær for Universitetsdirektør og Prorektor  |  
+| DTU Construct  | Gerda Helene Fogt  | gehf@dtu.dk  | Institutsekretær  |  
+| AUS  | Tina Rigborg Friisdahl  | trf@adm.dtu.dk  | AC-fuldmægtig  |  
+| DTU Construct  | Annette Frøhling  | anete@dtu.dk  | Institutsekretær B118, R244  |  
+| DTU Electro  | Sara Gibson  | sagib@dtu.dk  | Gruppekoordinator  |  
+| IT Service  | Anne Greenfield  | annegee@dtu.dk  | Teamleder og PA  |  
+| DTU Fødevareinstituttet  | Vibeke Dybdahl Hammer  | vdha@food.dtu.dk  | Administrativ koordinator  |  
+| DTU Kemiteknik  | Birgitte Hannibal  | birhan@kt.dtu.dk  | Specialkonsulent  |  
+| DTU Space  | Anne-Dorthe Hansen  | adh@space.dtu.dk  | Kontorfuldmægtig  |  
+| DTU Wind  | Anne-Marie Kantner Hansen  | amha@dtu.dk  | Divisionssekretær  |  
+| DTU Wind  | Josefine G. R. Hansen  | fine@dtu.dk  | Administrativ koordinator  |  
+| BRIGHT  | Henriette Hansen  | henrha@dtu.dk  | Receptionist  |  
+| DTU Management  | Laila Harms  | laihar@dtu.dk  | Sekretær  |  
+| AKM  | Tine Kjær Hassager  | tkh@adm.dtu.dk  | Kommunikationsdirektør  |  
+| DTU Electro  | Sylvana Heasley  | bsyhe@dtu.dk  | Gruppekoordinator  |  
+| DTU Energi  | Anne Heglingegård  | aheg@dtu.dk  | Administrativ koordinator (Sekretariatet)  |  
+| CAS  | Tina Heiermo  | tihei@dtu.dk  | Administrativ medarbejder / Indkøbsmedarbejder  |  
+| DTU Skylab  | Jesper Bak Henriksen  | jebahe@dtu.dk  | Administrative Coordinator  |  
+| DTU Management  | Ninette Holbech  | nihope@dtu.dk  | Divisionssekretær  |  
+| AØR  | Lisbet Holde  | lisbet.langenge@deic.dk  | Sekretær  |  
+| DTU Sundhedsteknologi  | Helle Tofte Holm  | htho@dtu.dk  | Afdelingssekretær  |  
+| AFRI  | Susanne Holm  | susho@dtu.dk  | Specialkonsulent  |  
+| DTU Management  | Marianne Hougs  | marhou@dtu.dk  | Divisionssekretær  |  
+| DTU Kemiteknik  | Ditte Gry Ishøy  | digryi@kt.dtu.dk  | Akademisk koordinator  |  
+| DTU Compute  | Anette Iversen  | anive@dtu.dk  | Personale koordinator  |  
+| DTU Sundhedsteknologi  | Stephanie Janvit  | stjan@dtu.dk  | Kontorfuldmægtig  |  
+| DTU Energi  | Christina Stenderup Jensen  | chrisj@dtu.dk  | Leder af Team Administration  |  
+| AHR  | Agata Ewa Jensen  | aewje@dtu.dk  | Internal Support Specialist  |  
+| DTU Aqua  | Stine Jensen  | stjens@aqua.dtu.dk  | Sekretær og studiekoordinator  |  
+| DTU Construct  | Anna Joensen  | anjoe@dtu.dk  | Administrativ koordinator  |  
+| DTU Kemiteknik  | Anne Helene Juul  | ahj@kt.dtu.dk  | Studiesekretær  |  
+| DTU Fødevareinstituttet  | Anne Jørgensen  | anga@food.dtu.dk  | Institutsekretær  |  
+| DTU Space  | Kaori Kobayashi Jørgensen  | kaori@space.dtu.dk  | Kontorassistent  |  
+| IT Service  | Christopher Kaae  | chrkaa@dtu.dk  | Administrator  |  
+| DTU Adgangskursus  | Anne-Mette Kanstrup  | amk@adk.dtu.dk  | Studiesekretær  |  
+| DTU Kemiteknik  | Dimitar Borisov Karakashev  | dbka@kt.dtu.dk  | Fundraiser  |  
+| DTU Aqua  | Tine Kastrup  | tik@aqua.dtu.dk  | Overassistent  |  
+| DTU Space  | Lizette Kaufmann  | lizka@space.dtu.dk  | Administrativ medarbejder  |  
+| DTU Wind  | Diana Lindholm Kiler  | diki@dtu.dk  | Administrativ koordinator  |  
+| DTU Management  | Mads Kaare Kjellingbro  | mkkj@dtu.dk  | Administrationschef  |  
+| BRIGHT  | Darko Kjiproski  | darkip@dtu.dk  | Specialkonsulent  |  
+| DTU Fysik  | Josephine Thrane Klinge  | jthkl@dtu.dk  | Specialkonsulent  |  
+| DTU Fysik  | Tine Hougaard Klitmøller  | klitmoeller@fysik.dtu.dk  | Chefkonsulent, Administration  |  
+| DTU Learn for Life  | Karina Laurberg Knudsen  | klakn@dtu.dk  | Head of Operations  |  
+| DTU Fødevareinstituttet  | Stig Martin Knudsen  | stim@food.dtu.dk  | Administrativ assistent  |  
+| DTU Fødevareinstituttet  | Heidi Kornholt  | heiko@food.dtu.dk  | Administrationschef  |  
+| CAS  | Solva Krossa  | solkr@dtu.dk  | Indkøbsmedarbejder  |  
+| DTU Wind  | Pia Løgstrup Lappin  | plla@dtu.dk  | Divisionssekretær  |  
+| DTU Fysik  | Merete Holmegaard Larsen  | mela@dtu.dk  | Projektkoordinator - LUMPHYS  |  
+| DTU Construct  | Lis Paludan Larsen  | lpala@dtu.dk  | Institutsekretær  |  
+| DTU Aqua  | Rikke Larsen  | rikla@aqua.dtu.dk  | Administrativ koordinator  |  
+| DTU Learn for Life  | Amalie Katrine Larsen  | akala@dtu.dk  | Operations Assistent  |  
+| CAS  | Rikke Howitz Larsen  | rilar@dtu.dk  | Administrativ medarbejder  |  
+| DTU Compute  | Pia Larsson  | pial@dtu.dk  | Studieadministrativ koordinator  |  
+| DTU Space  | Frederikke Emilie Storkehave Lassen  | frederikke@space.dtu.dk  | Kontorelev  |  
+| DTU Sundhedsteknologi  | Dorthe Foss Lillelund  | afli@dtu.dk  | Kontorfuldmægtig / Studiesekretær  |  
+| DTU Space  | Malika Lund-Harris  | malilu@dtu.dk  | Afdelingssekretær  |  
+| IT Service  | Anja Lykke  | anjly@dtu.dk  | Administrativ medarbejder  |  
+| DTU Kemiteknik  | Gitte Læssøe  | gnie@kt.dtu.dk  | Administrativ koordinator  |  
+| DTU Kemiteknik  | Helle Løvind  | hello@kt.dtu.dk  | Sekretær  |  
+| DTU Bioengineering  | Rosalba Albanese Marek  | rosama@dtu.dk  | Sekretær - Back Office  |  
+| DTU Compute  | Lene Matthisson  | lemat@dtu.dk  | Sekretariatsleder  |  
+| BRIGHT  | Gitte Mejlhart  | gimej@dtu.dk  | Section Secretary  |  
 Opdateret 26 januar 2026
 
 
 --- DOCUMENT (WEB SOURCE): krav-til-bilag.md ---
 
 *     * 
+
 
 #  Krav til bilag 
 Når du afregner udgifter på vegne af DTU, skal alle bilag og fakturaer leve op til bestemte krav. Når dokumentationen er rigtig, betyder det, at DTU kan trække moms fra, og at udgifterne kan godkendes uden forsinkelser. Her finder du de vigtigste krav til bilag, uanset om det gælder rejser, udlæg, transport eller køb via DTU kreditkort.
@@ -695,8 +624,10 @@ Som leder har du ansvar for, at udgifterne følger DTU's retningslinjer:
   * For direktionsmedlemmer og institutdirektører kan en medarbejder med kendskab til transaktionen stå for godkendelse, jf. Regnskabsinstruksen afsnit 4.2.
 
 
-Vær opmærksom på, at repræsentationsudgifter af større omfang eller ekstraordinær karakter ikke afholdes må afholdes uden, at der er særskilt hjemmel til det enten på finansloven eller særskilt forelæggelse for Finansudvalget, jf. Finansministeriets Budgetvejledning 2021 afsnit 2.4.14.
+Vær opmærksom på, at repræsentationsudgifter af større omfang eller ekstraordinær karakter ikke må afholdes uden, at der er særskilt hjemmel til det enten på finansloven eller særskilt forelæggelse for Finansudvalget, jf. Finansministeriets Budgetvejledning 2021 afsnit 2.4.14.
 Herunder kan du se definitioner af og eksempler på personaleudgifter og repræsentationsudgifter. Fold sektionerne ud, så kan du nemt vurdere, hvilken kategori din udgift hører til.
+### Kontakt
+Gitte Hurup Sektionschef, Koncernøkonomi Afdelingen for Økonomi og Regnskab  ghhe@adm.dtu.dk
 ### Hvad er en personaleudgift?
 Personaleudgifter er udgifter, der direkte kommer DTU's ansatte til gavn for at understøtte og styrke et godt arbejdsmiljø og god trivsel. 
 Eksempler på personaleudgifter er:
@@ -720,9 +651,7 @@ Eksempler på repræsentationsudgifter er:
 
 DTU's politik er, at repræsentationsudgifter kun afholdes i et begrænset omfang. 
 Der skal desuden være en rimelig balance mellem antal eksterne samarbejdspartnere og DTU-ansatte, der deltager ved repræsentationsarrangementer.
-### Kontakt
-Gitte Hurup Sektionschef, Koncernøkonomi Afdelingen for Økonomi og Regnskab  ghhe@adm.dtu.dk
-Opdateret 30 oktober 2025 
+Opdateret 17 april 2026 
 ### Sider under denne
   *   *   *   *
 
@@ -740,13 +669,15 @@ Procentgodtgørelse gives til dækning af småfornødenheder som kaffe og lokal 
 
 Ved tjenesterejser over 24 timer kan du få procentgodtgørelse i stedet for time-/dagpenge. Procentgodtgørelse dækker småfornødeheder og lokal transport, mens du kan få refunderet rimelige udgifter til måltider mod gyldig dokumentation, fx kvittering eller faktura.
 Bemærk, at du ikke må bruge et DTU-kreditkort til udgifter, der dækkes af procentgodtgørelsen.
-### Satsen skal dække:
+### Satsen skal dække:  
+| 
 #### 0 % til måltider
-| Måltider refunderes i henhold til bilag   
----|---  
+ | Måltider refunderes i henhold til bilag   |  
+| --- | --- |  
+| 
 #### 100 % til øvrigt
-| Småfornødenheder, fx kaffe, frugt, snacks, vand, avis m.m.  
-Lokal transport, fx bus, tog, taxa m.m.  
+ | Småfornødenheder, fx kaffe, frugt, snacks, vand, avis m.m.  |  
+| Lokal transport, fx bus, tog, taxa m.m.  |  
 ### Indholdsansvarlig
 Heidi Bielefeldt Teamleder Afdelingen for Økonomi og Regnskab  hep@adm.dtu.dk
 Opdateret 13 marts 2026
@@ -914,15 +845,17 @@ Hvis du er på tjenesterejse i over 24 timer, kan du få time-/dagpenge. Time-/d
 Du kan få time-/dagpenge, der dækker alle forplejningsudgifter, herunder de tre hovedmåltider, småfornødenheder og al transport, der ikke er omfattet af ud- eller hjemrejse, hvis din tjenesterejse varer mere end 24 timer.  
   
 Det er ikke muligt at få refunderet udgifter til forplejning, hvis du får time-/dagpenge, og du må ikke bruge dit DTU kreditkort til udgifter, der dækkes af time-/dagpenge.
-#### Satsen skal dække:
+#### Satsen skal dække:  
+| 
 #### 70 % til måltider
-| 15 % til morgenmad  
----|---  
-30 % til frokost   
-30% til aftensmad  
+ | 15 % til morgenmad  |  
+| --- | --- |  
+| 30 % til frokost   |  
+| 30% til aftensmad  |  
+| 
 #### 25 % til øvrigt
-| Småfornødenheder, fx kaffe, frugt, avis m.m.  
-Lokal transport, fx bud, tog, taxa m.m.  
+ | Småfornødenheder, fx kaffe, frugt, avis m.m.  |  
+| Lokal transport, fx bud, tog, taxa m.m.  |  
 Har du gratis måltider under din rejse, fx hotelmorgenmad, mødeforplejning på rejsen eller konferencemiddag, skal de modregnes i godtgørelsen. Du skal markere  _gratis måltider_ i din udgiftsrapport i DTU Fusion.
 Hvis du får gratis måltider i forbindelse med din tjenesterejse, nedsættes dine time-/dagpenge tilsvarende. De gældende satser reguleres hvert år den 1. januar, og satserne kan ses i Statsreguleringscirkulæret. 
 ### Rejser over 28 dage
@@ -994,61 +927,6 @@ Har du en kronisk eller eksisterende sygdom, kan dækningen under tjenesterejsen
 Opdateret 15 januar 2026
 
 
---- DOCUMENT (WEB SOURCE): tjenesterejser-og-transport.md ---
-
-*     *     *     *     *     *     *     * 
-
-
-
-
-
-
-
-#  Tjenesterejser og transport 
-Når du er på tjenesterejse for DTU gælder statens regler og satser for, hvilke udgifter du kan få refunderet. Her finder du både DTU’s retningslinjer og hjælp til, hvordan du planlægger, dokumenterer og afregner rejser og transport korrekt. 
-### Hvad dækker DTU – og hvilke regler gælder?
-Der kan være udgifter forbundet med dit arbejde til og fra en lokation, eller hvis du skal på en tjenesterejse. Det kan være i forbindelse med et møde, en konference, feltarbejde eller et længerevarende ophold i udlandet.
-**  
-****Eksempler på udgifter, DTU typisk godtgør:**
-  * Rejseudgifter (til og fra rejsemålet)
-  * Transport mellem hjem og lufthavn/lufthavn og bestemmelsessted (f.eks. hotel eller konferencested) 
-  * Overnatning (hotel eller lejlighed) 
-  * Konferencegebyrer mv. 
-  * Forplejning (via time-/dagpenge eller procentgodtgørelse)
-
-
-Når du rejser i forbindelse med arbejdet, er refusion og godtgørelse baseret på en kombination af statens regler og DTU’s egne retningslinjer, som du finder her;
-Tjenesterejser for DTU er omfattet af:
-**_Cirkulære om tjenesterejseaftalen_****,** der fastlægger hvilke merudgifter (transport, måltider, overnatning mv.) du kan få godtgjort
-  
-_**Satsreguleringscirkulæret**_**,** hvor du finder aktuelle satser for godtgørelse 
-  
-**_DTU’s retningslinjer_** for rejsebestilling, dokumentation og refusion
-### Du skal være opmærksom på følgende:
-### Tjekliste til tjenesterejsen
-Dette er godt at vide før, under og efter tjenesterejse
-### Time-/dagpenge eller procentgodtgørelse?
-Ved rejser med overnatning og varighed over 24 timer kan du vælge mellem to metoder til dækning af måltider og andre småfornødenheder:
-  * **Time-/dagpenge:** Du modtager en fast sats pr. døgn. Læs mere her
-  * **Procentgodtgørelse:** Du får refunderet dokumenterede udgifter med et fradrag (typisk for måltider) Læs mere her
-
-
-### Rejse uden overnatning
-Ved rejser under 24 timer eller uden overnatning kan du få dækket:
-  * Udgifter til op til tre hovedmåltider
-  * Transportomkostninger
-  * Rimelige småfornødenheder (fx kaffe, drikkevand, mindre udgifter på rejsen)
-
-
-Bemærk: Der ydes **ikke** time-/dagpenge eller procentgodtgørelse ved rejser uden overnatning.
-### Drikkepenge
-Som udgangspunkt dækker DTU ikke drikkepenge, da det i Danmark er indregnet i regningens pris.
-I lande hvor drikkepenge er en fast del af regningen, kan du få refunderet et beløb, der svarer til lokal praksis. Drikkepenge ud over, hvad der anses som rimeligt i det pågældende land, betragtes som privat forbrug og dækkes ikke.
-Opdateret 23 januar 2026 
-### Sider under denne
-  *   *   *   *   *   *   *
-
-
 --- DOCUMENT (WEB SOURCE): transport-og-koersel.md ---
 
 *     *     *     *     *     *     * 
@@ -1066,9 +944,7 @@ Læs desuden nærmere omkring bilagskrav.
 ### Afregning
 Alle udgifter og kørselsgodtgørelse skal afregnes senest **30 dage efter hjemkomst** via en udgiftsrapport i DTU Fusion.  
 Alle transportudgifter skal kunne dokumenteres med bilag, der viser udgiftens art, dato og beløb.
-### Bøder og lignende udgifter dækkes ikke
-Udgifter som bøder, kontrolafgifter og lignende betragtes som private og refunderes ikke af DTU – heller ikke selvom de opstår i arbejdstiden eller under en tjenesterejse.
-Opdateret 15 januar 2026 
+Opdateret 17 marts 2026 
 ### Sider under denne
   *   *   *   *   *   *
 
@@ -1425,3 +1301,200 @@ Retningslinjer for tjenesterejser på DTU
 DTU DOC: 16/10281
 
 6
+
+
+--- DOCUMENT (PDF SOURCE): Satsregulering-1-januar-2026-for-tjenesterejser.md ---
+
+# Cirkulære om satsregulering pr. 1. januar 2026 for tjenesterejser
+
+**Cirkulære af 19. december 2025**
+Medst.nr. 119-25 | J.nr. 2024-4871
+Udgivet af: Finansministeriet, Medarbejder- og Kompetencestyrelsen
+
+---
+
+I medfør af Finansministeriet, Medarbejder- og Kompetencestyrelsens cirkulære af 3. januar 2023 om tjenesterejseaftalen (Medst. nr. 001-23) reguleres satserne for godtgørelse af merudgifter på tjenesterejser hver 1. januar, jf. aftalens kapitel 7. Satserne i bilag 1, 2, 3, 4 og 6 er ændret pr. 1. januar 2026 som følge af ændrede satser i skattelovgivningen.
+
+**Ikrafttræden:** Cirkulæret har virkning fra den 1. januar 2026. Samtidig ophæves Finansministeriets cirkulære nr. 9302 af 4. april 2025 (Medst. nr. 056-25).
+
+---
+
+## Bilag 1 – Transportgodtgørelse pr. 1. januar 2026
+
+### Biler og motorcykler
+
+| Paragraf | Beskrivelse | Sats |
+|---|---|---|
+| § 14 | Almindelig godkendt kørsel | 2,28 kr. pr. km |
+| § 15 | Kørsel i henhold til bemyndigelse – indtil 20.000 km i et kalenderår | 3,94 kr. pr. km |
+| § 15 | Kørsel i henhold til bemyndigelse – ud over 20.000 km i et kalenderår | 2,28 kr. pr. km |
+| § 16 | Kørsel i udlandet | 2,28 kr. pr. km |
+
+### Knallerter og cykler
+
+| Paragraf | Beskrivelse | Sats |
+|---|---|---|
+| § 17 | Godtgørelse | 0,64 kr. pr. km |
+
+---
+
+## Bilag 2 – Time- og dagpenge samt procentgodtgørelse i Danmark og på Færøerne pr. 1. januar 2026
+
+### A. Time- og dagpenge
+
+| | Beskrivelse | Dagpenge (kr.) | Timepenge (kr.) |
+|---|---|---|---|
+| I | Ureducerede satser | 538,00 ²⁾³⁾ | 22,42 ²⁾³⁾ |
+| II | Satser reduceret med 1/4 i Danmark | 403,50 ²⁾³⁾ | 16,81 ²⁾³⁾ |
+| III | Satser reduceret med 1/6 på Færøerne | 448,33 ²⁾³⁾ | 18,68 ²⁾³⁾ |
+
+De reducerede satser (II og III) anvendes under udstationering fra og med den 29. dag, jf. § 35, stk. 1, i tjenesterejseaftalen (Medst. nr. 001-23).
+
+**Lokalt aftalte maksimumsatser (§ 22, stk. 3):**
+
+| | Dagpenge maks. | Timepenge maks. |
+|---|---|---|
+| I Ureducerede satser | 625,00 kr. | 26,04 kr. |
+| II Reduceret med 1/4 i Danmark | 468,75 kr. | 19,53 kr. |
+| III Reduceret med 1/6 på Færøerne | 520,83 kr. | 21,70 kr. |
+
+### B. Procentgodtgørelse ¹⁾
+
+Procentgodtgørelse udgør **156,25 kr. pr. døgn**.
+
+> ¹⁾ Der kan aldrig samtidig ydes både time- og dagpenge og procentgodtgørelse. Procentgodtgørelse ydes alene i det tilfælde, der er nævnt i tjenesterejseaftalens § 20, stk. 2.
+> ³⁾ Måltidsfradrag foretages i overensstemmelse med bilag 4.
+
+---
+
+## Bilag 3 – Dagpenge og procentgodtgørelse i udlandet og i Grønland pr. 1. januar 2026
+
+Standardsatsen i udlandet og Grønland: **dagpenge 625 kr.** og **procentgodtgørelse 156,25 kr.**
+
+Undtagelser – følgende lande har lavere satser:
+
+| Land | Dagpenge (kr.) | Procentgodtgørelse (kr.) |
+|---|---|---|
+| **Europa** | | |
+| Bulgarien | 466 | 139,80 |
+| Slovakiet | 446 | 133,80 |
+| **Afrika** | | |
+| Mozambique | 419 | 125,70 |
+| Sydafrika | 347 | 104,10 |
+| Tunesien | 496 | 148,80 |
+| Zambia | 476 | 142,80 |
+| Zimbabwe | 360 | 108,00 |
+| Ægypten | 481 | 144,30 |
+| **Amerika** | | |
+| Bolivia | 360 | 108,00 |
+| Colombia | 476 | 142,80 |
+| Cuba | 503 | 150,90 |
+| **Asien** | | |
+| Bangladesh | 476 | 142,80 |
+| Bhutan | 263 | 78,90 |
+| Indien | 347 | 104,10 |
+| Iran | 360 | 108,00 |
+| Malaysia | 352 | 105,60 |
+| Nepal | 292 | 87,60 |
+| Pakistan | 298 | 89,40 |
+| Thailand | 430 | 129,00 |
+
+> ¹⁾ Der kan aldrig samtidig ydes både dagpenge og procentgodtgørelse. Procentgodtgørelse ydes alene i det tilfælde, der er nævnt i tjenesterejseaftalens § 21, stk. 2.
+> ²⁾ Måltidsfradrag foretages i overensstemmelse med bilag 4.
+> ³⁾ Dagpengene kan ikke overstige 625 kr. og procentgodtgørelsen kan ikke overstige 156,25 kr.
+
+---
+
+## Bilag 4 – Måltidsfradrag i Danmark, på Færøerne, i udlandet og i Grønland pr. 1. januar 2026
+
+Time- og dagpengene skal reduceres, hvis den ansatte får gratis måltider i tilknytning til tjenesterejsen. Fradraget foretages i den konkrete time- og dagpengesats.
+
+### Fradragsprocenter
+
+| Måltid | Fradrag |
+|---|---|
+| Morgenmad | 15 pct. |
+| Frokost | 30 pct. |
+| Middag | 30 pct. |
+| Fuld kost | 75 pct. |
+
+Fremkommer der en tredje decimal på 5 eller mere, afrundes opad til nærmeste hele ørebeløb, ellers nedad.
+
+### Eksempel 1 – Ureduceret sats 538 kr.
+
+| Måltid | Fradrag (kr.) |
+|---|---|
+| Morgenmad | 80,70 |
+| Frokost | 161,40 |
+| Middag | 161,40 |
+| Fuld kost | 403,50 |
+
+### Eksempel 2 – Ureduceret sats 625 kr.
+
+| Måltid | Fradrag (kr.) |
+|---|---|
+| Morgenmad | 93,75 |
+| Frokost | 187,50 |
+| Middag | 187,50 |
+| Fuld kost | 468,75 |
+
+---
+
+## Bilag 5 – Hoteldispositionsbeløb i Danmark, på Færøerne og i udlandet pr. 1. januar 2026
+
+### A. Danmark og Færøerne
+
+| | Beskrivelse | Beløb |
+|---|---|---|
+| I | Ureduceret sats – Danmark ¹⁾²⁾³⁾ | 1.844 kr. |
+| I | Ureduceret sats – Færøerne | 1.576 kr. |
+| II | Reduceret med 1/4 i Danmark ¹⁾²⁾ | 1.383 kr. |
+| II | Reduceret med 1/6 på Færøerne | 1.313 kr. |
+
+De reducerede satser anvendes under udstationering fra og med den 29. dag, jf. § 35, stk. 2, i tjenesterejseaftalen (Medst. nr. 001-23).
+
+> ¹⁾ Hoteldispositionsbeløbet for Danmark fastsættes med udgangspunkt i den statslige hotelaftale, der reguleres pr. 15. marts hvert år.
+> ²⁾ Hoteldispositionsbeløbet er inklusive moms.
+> ³⁾ Hoteller på den statslige hotelaftale, der overstiger hoteldispositionsbeløbet, kan også refunderes.
+
+### B. Udlandet
+
+| Land | Valuta | Beløb |
+|---|---|---|
+| Belgien | EUR | 190 |
+| Canada | CAD | 352 + tax |
+| Finland | EUR | 154 |
+| Frankrig | EUR | 201 |
+| Grækenland | EUR | 137 |
+| Holland | EUR | 197 |
+| Irland | EUR | 169 |
+| Island | ISK | 38.298 |
+| Italien | EUR | 166 |
+| Luxembourg | EUR | 177 |
+| Norge | NOK | 2.234 |
+| Portugal | EUR | 153 |
+| Schweiz | CHF | 226 |
+| Spanien | EUR | 177 |
+| Storbritannien | GBP | 189 |
+| Sverige | SEK | 2.039 |
+| Tyskland | EUR | 157 |
+| USA (New York og Washington D.C.) | USD | 329 + tax |
+| USA (i øvrigt) | USD | 281 + tax |
+| Østrig | EUR | 137 |
+
+Hoteldispositionsbeløbet i udlandet og Grønland nedsættes med 1/4 under udstationering fra og med den 29. dag, jf. § 35, stk. 2, i tjenesterejseaftalen (Medst. nr. 001-23).
+
+For lande uden fastsat hoteldispositionsbeløb refunderes rimelige udgifter til et hotelværelse med bad eller anden godkendt indkvartering mod dokumentation, jf. § 28, stk. 4, i tjenesterejseaftalen.
+
+---
+
+## Bilag 6 – Udokumenteret nattillæg i Danmark, på Færøerne, i udlandet og i Grønland pr. 1. januar 2026
+
+| | Beskrivelse | Sats |
+|---|---|---|
+| I | Ureduceret sats | 268,00 kr. |
+| II | Reduceret med 1/4 i Danmark | 201,00 kr. |
+| III | Reduceret med 1/6 på Færøerne | 223,33 kr. |
+| IV | Reduceret med 1/4 i udlandet og i Grønland | 201,00 kr. |
+
+De reducerede satser for udokumenteret nattillæg anvendes under udstationering fra og med den 29. dag, jf. § 35, stk. 2, i tjenesterejseaftalen.
