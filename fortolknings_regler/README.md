@@ -1,16 +1,61 @@
-Dette modul kører igennem Inside for at finde alle fortolkningsreglerne. Den starter på den hjemmeside der er defineret i inside_to_pdf_fortolkning og laver ellers BFS fra denne side og henter alt information ned på md filer. Derudover gemmer den også PDFer der bliver ref til på de forskellige sider. 
+# Fortolkning – web- og PDF-indsamling
 
-Efter at have kørt det hele har man altså en håndful filer der sammen skulle dække alle fortolkningsregler.
+Dette modul gennemløber *Inside* for at finde og indsamle alle fortolkningsregler.
 
-Måden det skal kører på er følgende.
-Download nødvendige pakker
-Kør derefter:
+Processen starter på den hjemmeside, der er defineret i `inside_to_pdf_fortolkning`. Herfra udføres en **BFS (Breadth-First Search)**, hvor alle relevante sider besøges, og indholdet gemmes som Markdown-filer (`.md`).  
+Derudover downloades og gemmes alle PDF-filer, som der refereres til fra de enkelte sider.
+
+Når hele processen er gennemført, har man en samling filer, som tilsammen dækker alle fortolkningsregler.
+
+***
+
+## Sådan køres modulet
+
+### 1. Forberedelse
+
+Sørg først for at installere alle nødvendige pakker.
+
+### 2. Kør scripts i rækkefølge
+
+Kør herefter følgende kommandoer i denne rækkefølge:
+
+```bash
 python main_fortolkning.py gather
-python main_fortolkning.py combine_webpage 
+python main_fortolkning.py combine_webpage
 python main_fortolkning.py pdf_to_md
-Efter at have kørt disse 3 kan det være smart lige at kigge md filerne fra pdferne igennem da nogle af dem kan være meget lange, og måske egentlig helst skulle være seres egen fil og ikke kombinerers med de andre. Derudover er der ikke udviklet noget script endnu til at rydde op i md/pdf filerne og det nuværende script kan ikke altid konverterer billeder på pdfer ordentligt til md så lidt manuelt arbejde er nødvendigt. Man kan bare give pdfen til en llm og få den til at konverterer det til en md fil for en men man skal lige prompte den ordentligt.
-Efter dette er gjort kan man køre 
-python main_fortolkning.py combine_pdf 
-og man har nu alle nødvendige filer til at fodre sin AI agent med.
+```
 
-Lille to do. Ryd lidt mere op i filerne, inklusiv at gøre denne readme lidt bedre. find på en bedre løsning til at få omdannet pdf til md.
+***
+
+## Manuel efterbehandling (vigtigt)
+
+Efter de tre scripts er kørt, anbefales det at gennemgå Markdown-filerne, der er genereret fra PDF’erne:
+
+*   Nogle PDF’er kan være meget lange og bør evt. ligge i deres **egne filer** frem for at blive kombineret med øvrigt indhold.
+*   Der findes endnu ikke et script til automatisk oprydning i `.md`- eller PDF-filerne.
+*   Den nuværende PDF → Markdown-konvertering håndterer ikke altid billeder optimalt.
+
+Derfor er **noget manuelt arbejde nødvendigt**.  
+En praktisk løsning er at give PDF’en direkte til en LLM og få den konverteret til Markdown – det kræver dog, at modellen promptes korrekt.
+
+***
+
+## Samling af PDF-indhold
+
+Når den manuelle oprydning er foretaget, kan følgende kommando køres:
+
+```bash
+python main_fortolkning.py combine_pdf
+```
+
+Herefter har du alle nødvendige filer klar til at blive brugt som input til din AI-agent.
+
+***
+
+## TODO
+
+*   Find eller implementér en bedre og mere robust løsning til konvertering fra PDF til Markdown.
+
+***
+
+

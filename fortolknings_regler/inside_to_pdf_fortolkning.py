@@ -5,7 +5,7 @@ from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 import json
 
 async def run_smart_pipeline(base_url, project_root=None):
-    # Paths
+
     if not project_root or not os.path.isdir(project_root):
         print(f"WARNING: The provided project_root '{project_root}' is invalid or does not exist.")
         return
@@ -23,7 +23,6 @@ async def run_smart_pipeline(base_url, project_root=None):
         use_persistent_context=True
     )
 
-    # Simplified Generator
     md_generator = DefaultMarkdownGenerator(
         options={
             "bypass_tables": False,
@@ -34,7 +33,6 @@ async def run_smart_pipeline(base_url, project_root=None):
         }
     )
 
-    # Basic RunConfig
     run_config = CrawlerRunConfig(
         markdown_generator=md_generator,
         process_iframes=True,
@@ -48,7 +46,7 @@ async def run_smart_pipeline(base_url, project_root=None):
         print("Checking login status. If the browser shows the login page, please log in.")
         print("Once you see the actual content, press ENTER in this terminal.")
         
-        # Load the page once so the user can log in
+
         await crawler.arun(url=base_url, config=run_config)
         
         loop = asyncio.get_event_loop()

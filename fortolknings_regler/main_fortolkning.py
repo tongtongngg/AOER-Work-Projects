@@ -5,7 +5,6 @@ from inside_to_pdf_fortolkning import run_smart_pipeline
 from merge_md import combine_markdown_files
 from md_cleaner_fortolkning import process_dtu_files, combine_all_sources
 from pdf_to_md_test import process_pdfs
-#from pdf_handler_fortolkning import process_dtu_pdfs
 
 
 async def main():
