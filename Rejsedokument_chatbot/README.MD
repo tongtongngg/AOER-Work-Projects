@@ -1,55 +1,39 @@
 # DTU Inside: Rejsedokumenter Scraper
 
-This module automates the retrieval and conversion of travel documents (rejsedokumenter) from the DTU Inside portal. It uses Crawl4AI for web navigation and MarkItDown to ensure all retrieved data is stored in a readable, structured format.
+Dette modul automatiserer hentning og konvertering af rejsedokumenter fra DTU Inside-portalen. Det bruger Crawl4AI til webnavigation og MarkItDown til at sikre, at alle hentede data lagres i et læsbart og struktureret format.
 
-## Features
-- Asynchronous Crawling: Uses asyncio and Crawl4AI for fast, non-blocking page processing.
-- Markdown Conversion: Converts complex HTML and document fragments into clean Markdown using MarkItDown.
-- Automated Regex: Uses the re module to identify and sort document types such as invoices, tickets, or approvals.
+## Funktioner
+- Asynkron Crawling: Bruger asyncio og Crawl4AI til hurtig, ikke-blokerende sidebehandling.
+- Markdown-konvertering: Konverterer kompleks HTML og dokumentfragmenter til ren Markdown via MarkItDown.
+- Automatiseret Regex: Bruger re-modulet til at identificere og sortere dokumenttyper såsom fakturaer, billetter eller godkendelser.
 
-## Setup and Installation
+## Opsætning og installation
 
-### 1. Environment
-Ensure you are in your Conda environment, then install the core dependencies:
+### 1. Miljø
+Sørg for, at du er i dit Conda-miljø, og installér derefter de grundlæggende afhængigheder:
 ```bash
 pip install crawl4ai httpx markitdown[all]
 ```
 
-And then run this command when installing crawl4ai:
+Kør herefter denne kommando i forbindelse med installationen af crawl4ai:
 ```bash
 crawl4ai-setup
 ```
 
-## Project Structure
-```
-src/                       Python source modules
-  main.py                  orchestrator + configuration
-  crawler.py               Phase 1: web crawl
-  pdf_handler.py           Phase 2: PDF download + MD conversion
-  md_cleaner.py            Phase 3: clean + combine
-data/
-  raw/web/                 raw crawled pages (auto-generated)
-  raw/pdf/                 PDF-to-MD conversions (auto-generated)
-  raw/manual_download_list.txt
-  interim/cleaned_web/     marker-extracted, noise-filtered pages
-  processed/
-    dtu_training_master.md final merged training file
-docs/                      project notes
-.cache/dtu_session/        persistent Chromium profile (gitignored)
-requirements.txt
-```
+## Projektstruktur
+- main.py: Hovedscriptet med AsyncWebCrawler-logikken.
+- requirements.txt: Minimal liste over tredjepartspakker (crawl4ai, httpx, markitdown).
+- data/: (Genereres automatisk) Indeholder de konverterede .md-rejsedokumenter.
 
-All paths in code are anchored to the project root, so the scripts can be run from any working directory.
+## Bemærkning om godkendelse
+DTU Inside kræver login. Denne scraper håndterer sessionen via BrowserConfig for at administrere persistente kontekster eller session-cookies.
 
-## Authentication Note
-DTU Inside requires a login. The scraper persists the SSO session in `.cache/dtu_session/` via BrowserConfig. PDF downloads additionally need the `ASP.NET_SessionId` and `.ASPXAUTH` cookies set in `src/main.py`.
-
-## Usage
-Edit cookies and hub URLs at the top of `src/main.py`, then:
+## Anvendelse
+Kør scraperen fra terminalen (husk at redigere sti-koden i Main_file.py)
 ```bash
-# Web scrape DTU inside and clean data
-python src/main.py gather
+# Web-scrape DTU Inside og rens data
+python main.py gather
 
-# Combine all scraped sources into data/processed/dtu_training_master.md
-python src/main.py combine
+# Kombinér alle scrapede websider
+python main.py combine
 ```
