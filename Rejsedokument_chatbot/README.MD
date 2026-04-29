@@ -21,19 +21,35 @@ crawl4ai-setup
 ```
 
 ## Project Structure
-- main.py: The primary script containing the AsyncWebCrawler logic.
-- requirements.txt: Minimal list of 3rd party packages (crawl4ai, httpx, markitdown).
-- data/: (Auto-generated) Stores the converted .md rejsedokumenter.
+```
+src/                       Python source modules
+  main.py                  orchestrator + configuration
+  crawler.py               Phase 1: web crawl
+  pdf_handler.py           Phase 2: PDF download + MD conversion
+  md_cleaner.py            Phase 3: clean + combine
+data/
+  raw/web/                 raw crawled pages (auto-generated)
+  raw/pdf/                 PDF-to-MD conversions (auto-generated)
+  raw/manual_download_list.txt
+  interim/cleaned_web/     marker-extracted, noise-filtered pages
+  processed/
+    dtu_training_master.md final merged training file
+docs/                      project notes
+.cache/dtu_session/        persistent Chromium profile (gitignored)
+requirements.txt
+```
+
+All paths in code are anchored to the project root, so the scripts can be run from any working directory.
 
 ## Authentication Note
-DTU Inside requires a login. This scraper handles the session via BrowserConfig to manage persistent contexts or session cookies.
+DTU Inside requires a login. The scraper persists the SSO session in `.cache/dtu_session/` via BrowserConfig. PDF downloads additionally need the `ASP.NET_SessionId` and `.ASPXAUTH` cookies set in `src/main.py`.
 
 ## Usage
-Run the scraper from terminal (remember to edit path code in Main_file.py)
+Edit cookies and hub URLs at the top of `src/main.py`, then:
 ```bash
 # Web scrape DTU inside and clean data
-python main.py gather
+python src/main.py gather
 
-# Combine all scraped websites
-python main.py combine
+# Combine all scraped sources into data/processed/dtu_training_master.md
+python src/main.py combine
 ```

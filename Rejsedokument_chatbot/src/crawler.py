@@ -1,5 +1,6 @@
 import asyncio
-import os
+from pathlib import Path
+
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 
@@ -18,23 +19,19 @@ def _is_login_page(result):
     return False
 
 
-async def run_smart_pipeline(hub_urls, project_root=None):
-    # Paths
-    if not project_root or not os.path.isdir(project_root):
-        print(f"WARNING: The provided project_root '{project_root}' is invalid or does not exist.")
-        return
+async def run_smart_pipeline(hub_urls, output_dir, pdf_log_file, session_dir):
+    target_folder = Path(output_dir)
+    pdf_log_file = Path(pdf_log_file)
+    user_session_path = Path(session_dir)
 
-    target_folder = os.path.join(project_root, "dtu_training_data")
-    pdf_log_file = os.path.join(project_root, "manual_download_list.txt")
-    user_session_path = os.path.join(os.getcwd(), "dtu_session")
-    
-    if not os.path.exists(target_folder):
-        os.makedirs(target_folder)
+    target_folder.mkdir(parents=True, exist_ok=True)
+    pdf_log_file.parent.mkdir(parents=True, exist_ok=True)
+    user_session_path.mkdir(parents=True, exist_ok=True)
 
     browser_config = BrowserConfig(
-        headless=False, 
-        user_data_dir=user_session_path,
-        use_persistent_context=True
+        headless=False,
+        user_data_dir=str(user_session_path),
+        use_persistent_context=True,
     )
 
     # Simplified Generator
@@ -102,7 +99,7 @@ async def run_smart_pipeline(hub_urls, project_root=None):
         # Phase 2: Crawl webpages only
         for i, url in enumerate(to_crawl):
             url_slug = url.rstrip("/").split("/")[-1] or f"page_{i}"
-            file_path = os.path.join(target_folder, f"{url_slug}.md")
+            file_path = target_folder / f"{url_slug}.md"
 
             try:
                 await asyncio.sleep(2) # Natural delay to help page load
