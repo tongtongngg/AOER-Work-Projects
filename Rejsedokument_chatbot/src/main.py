@@ -19,8 +19,8 @@ SESSION_DIR = PROJECT_ROOT / ".cache" / "dtu_session"
 
 async def main():
     my_hubs = [
-        "https://www.inside.dtu.dk/oekonomi/afregning-af-udgifter-og-rejser",
-        "https://www.inside.dtu.dk/oekonomi/tjenesterejser-og-transport",
+        "https://www.inside.dtu.dk/da/oekonomi/afregning-af-udgifter-og-rejser",
+        "https://www.inside.dtu.dk/da/oekonomi/tjenesterejser-og-transport"
     ]
 
     my_cookies = {

@@ -64,6 +64,8 @@ Alle flybilletter og hotelophold i forbindelse med DTU-betalte tjenesterejser sk
 - **Når en gæst betaler selv og booker uden for CWT:** Refusion er begrænset til den pris, DTU kunne have opnået via CWT-aftalen. Gæsten bærer selv eventuelle meromkostninger.
 - Hvis du undtagelsesvist anvender en anden rejseudbyder end CWT, skal du skriftligt begrunde dette i din udgiftsrapport.
 
+Du tilgår CWT's bookingsystem **MyCWT** via single sign-on på din arbejdscomputer — intet separat login er nødvendigt. Når du er logget ind, skal du udfylde din **rejseprofil** (øverst til højre) med kreditkortnummer fra dit DTU-firmakort samt pas- eller nationale ID-oplysninger til brug ved visumrådgivning og assistance. **Profilnavnet skal stemme nøjagtigt overens med dit pas** — ellers risikerer du at blive nægtet boarding. Loginproblemer skyldes oftest en forkert registreret mailadresse i DTU-basen; kontakt i så fald din DTUBase-ansvarlige, og derefter Strategisk Indkøb ved andre fejl.
+
 **Kontakt – Strategisk Indkøb:** strategiskindkob@dtu.dk
 
 ### 3.2 Flyrejser
@@ -79,7 +81,7 @@ Udgangspunktet er altid **billigste billet (economy-klasse)**. Afvigelser kræve
 
 > **Bemærk:** Arbejdsindsats i denne sammenhæng betyder deltagelse i møde, undervisning eller afholdelse af foredrag. Deltagelse i seminarer, konferencer eller udstillinger tæller ikke som "arbejdsindsats" i denne definition.
 
-Hvis den ønskede flyvning ikke tilbydes af CWT, kan den bookes hos en anden udbyder.
+Hvis den ønskede flyvning ikke tilbydes af CWT, kan den bookes hos en anden udbyder. Visse lavprisflyselskaber kræver registrering med et kreditkort ved bestilling gennem CWT — i disse tilfælde kan DTU-kreditkortet bruges til dette formål.
 
 ### 3.3 Togrejser
 
@@ -94,6 +96,46 @@ Overnatning bookes som udgangspunkt via CWT. Følgende undtagelser er tilladt, s
 - Ophold i udlandet over **mere end én uges sammenhængende overnatninger** på samme sted (fx ved udstationering) — Airbnb, Homeaway eller lignende er tilladt. Bemærk, at der ikke er samme sikkerhed som ved hotel (fx ved fremkomst). Dokumentationen skal opfylde gældende bilagskrav.
 
 > **Bemærk:** DTU dækker **ikke** rejseudgifter for medrejsende ægtefælle eller ledsager.
+
+### 3.5 Bonuspoint optjent på tjenesterejser
+
+Bonuspoint optjent i forbindelse med tjenesterejser tilhører DTU og ikke den enkelte medarbejder. De må derfor kun bruges til køb af flybilletter til fremtidige tjenesterejser — aldrig til privat brug.
+
+Når du bestiller, skal du anvende dine optjente point og eventuelle rabatter, så DTU's udgifter holdes så lave som muligt. Flybonuspoint er knyttet til den enkelte medarbejders profil og opgøres løbende af flyselskaberne.
+
+Som ansat har du ansvar for at gemme dokumentation for pointoptjening og -brug i **5 år**, da DTU foretager stikprøver for at sikre korrekt anvendelse. Dette er i overensstemmelse med Finansministeriets cirkulære om bonuspoint (CIR nr. 9819 af 4/11/2009).
+
+### 3.6 Flyforsinkelse
+
+Hvis dit fly er mere end tre timer forsinket, bliver aflyst, eller du bliver nægtet boarding eller taget af flyet på grund af forhold hos flyselskabet (fx overbooking), kan du søge kompensation direkte hos flyselskabet. Det er gratis for dig som rejsende. CWT kan hjælpe med at indhente kompensationen.
+
+### 3.7 Booking for medrejsende og ikke-ansatte
+
+CWT kan også benyttes til booking af rejser for personer, der ikke er ansat på DTU, når det er økonomisk hensigtsmæssigt for DTU. Den DTU-ansatte kan samle sin egen rejse og den medrejsendes rejse i samme booking. For booking af rejser for ikke-ansatte opkræves et gebyr på ca. **400 kr.** pr. booking.
+
+### 3.8 Kontakt til CWT
+
+CWT kan kontaktes på følgende måder:
+
+| Henvendelse | Kontakt |
+|---|---|
+| Fly, tog, hotel og billeje | Tlf. 3363 7777, tast 1 / staten.dk@contactcwt.com |
+| Teknisk support (online bookingsystem) | Tlf. 3363 7777, tast 2 / txcare.dk@mycwt.com |
+| Grupperejser | Tlf. 3363 7676 / cwtdkevents@cwt-me.com |
+| Fakturaer | support.staten.dk@mycwt.com |
+| Reklamationer og klager | customercare.dk@contactcwt.com |
+
+**Åbningstider:** Mandag–fredag kl. 8:30–16:30. Nødopkald uden for åbningstid kan foretages på tlf. 3363 7777 — vær opmærksom på, at der opkræves et servicegebyr på **220 kr.** pr. opkald.
+
+**Prisgaranti:** CWT tilbyder prisgaranti ved bestilling af flybilletter. Kan du dokumentere en lavere offentlig pris, refunderer CWT prisforskellen. Prisgarantien forudsætter, at ydelserne er identiske hvad angår dato, afgangstider og rute, leverandør, klasse samt billetregler og vilkår. Garantien gælder kun priser på danske bookingsider.
+
+### 3.9 Booking på vegne af andre
+
+For at bestille rejser og hotelophold for kolleger eller gæster skal du være oprettet som **rejsebestiller** i CWT's system. Som rejsebestiller kan du booke for ansatte i din enhed og oprette rejser for gæster, der ikke er ansat på DTU.
+
+Registrering som rejsebestiller sker ved at kontakte CWT på **txcare.dk@mycwt.com** — husk at vedhæfte din mailsignatur, så CWT kan se, hvilken enhed du tilhører.
+
+Skal du booke en rejse for en ny medarbejder, som endnu ikke er i et aktivt ansættelsesforhold, kan transaktionen ikke afregnes på medarbejderens profil. I stedet skal rejsen bookes som **"gæst"** — transaktionen knyttes derved til dig som rejsebestiller og kan afregnes via din egen udgiftsrapport.
 
 ---
 
@@ -224,6 +266,14 @@ DTU dækker som udgangspunkt **ikke** drikkepenge, da det i Danmark er indregnet
 
 I lande, hvor drikkepenge er en fast del af regningen (fx USA og dele af Asien), kan du få refunderet et beløb svarende til **lokal praksis**. Drikkepenge ud over, hvad der anses som rimeligt i det pågældende land, betragtes som privat forbrug og dækkes ikke.
 
+### 4.6 Ph.d.-studerendes rejsegodtgørelse
+
+Ph.d.-studerende på DTU er ikke omfattet af Tjenesterejseaftalen (jf. AC-overenskomstens bilag 5) og har derfor ikke krav på udbetaling af time-/dagpenge eller andre faste godtgørelser under tjenesterejser.
+
+Den enkelte enhed kan dog beslutte at refundere rejseudgifter helt eller delvist efter lokale retningslinjer — enten som time-/dagpenge (hvis enheden tillader det) eller som dokumenteret refusion af faktiske udgifter til fx hotel, fly og tog. Udgifter kan aldrig overstige satserne i det gældende Satsreguleringscirkulære, og enheder kan desuden fastsætte lavere beløbsgrænser pr. rejse eller pr. måned.
+
+Det er godkenderens ansvar at sikre, at den pågældende enheds lokale regler overholdes. Dækker din enhed ikke dine rejseudgifter, kan du i stedet søge skattemæssigt fradrag for rejseudgifterne via SKAT.
+
 ---
 
 ## 5. DTU Kreditkort
@@ -353,6 +403,17 @@ Manglende afregning af kontante udlæg og kørsel kan ligeledes betyde, at disse
 **Kontakt – kreditkortadministration:** kreditkort@adm.dtu.dk
 **Kontakt – Heidi Bielefeldt, Teamleder AØR:** hep@adm.dtu.dk
 
+### 5.11 Hvis du skylder DTU penge
+
+Det kan ske, at du som medarbejder kommer til at skylde DTU penge. Det sker typisk, hvis du har brugt DTU-kreditkortet til private udgifter, en del af et bilag vedrører privatforbrug, eller du har hævet kontanter, der overstiger de indberettede og dokumenterede udgifter.
+
+I disse tilfælde skal du tilbagebetale det skyldige beløb hurtigst muligt. Du kan betale på to måder:
+
+- **Bankoverførsel:** Konto 4183-4263972007
+- **MobilePay:** 86067
+
+Husk altid at angive dit udgiftsrapportnummer som reference. Skyldige beløb modregnes ikke automatisk i lønnen, medmindre det skyldes manglende afregning af kreditkorttransaktioner. Kontakt Afdelingen for Økonomi og Regnskab, hvis du er i tvivl om beløb, reference eller betalingsmåde.
+
 ---
 
 ## 6. Dokumentation og bilag
@@ -388,7 +449,7 @@ Derudover gælder specifikke krav per transportform:
 |---|---|
 | **Fly** | Vedhæft CWT-fakturaen (bookingbekræftelse er ikke tilstrækkelig) samt CWT's originale fly- og hotelbookinggebyr-fakturaer. |
 | **Hotel** | Vedhæft CWT-fakturaen **og** den originale hotelfaktura modtaget ved udtjekning. Begge dokumenter er påkrævet. |
-| **Bus og tog** | Vedhæft billetten. Optankning af Rejsekort refunderes ikke — kun faktisk forbrug dokumenteret med udskrift af rejsekorttransaktioner. **Kortholderens navn skal fremgå af udskriften.** |
+| **Bus og tog** | Vedhæft billetten. Ved billetter købt via **DSB/DOT-appen** skal du tage skærmbillede af **både for- og bagside** af billetten. Ved **mobilklippekort** vedlægges både kvittering for køb af klippekortet og kvittering for de anvendte klip. Optankning af Rejsekort refunderes ikke — kun faktisk forbrug dokumenteret med udskrift af rejsekorttransaktioner. **Kortholderens navn skal fremgå af udskriften.** Ved **anonymt Rejsekort** dokumenteres rejsen med et foto af standerskærmen på stationen. |
 | **Taxa** | Vedhæft både kreditkortkvittering **og** specificeret regning for at få dækket eventuelle kortgebyrer. |
 | **Bro og parkering** | Kreditkortkvittering accepteres som eneste undtagelse som gyldigt bilag. |
 | **Lufthavnsparkering** | Vedhæft både reservationsbekræftelse **og** kontoudtog. |
@@ -399,7 +460,7 @@ Derudover gælder specifikke krav per transportform:
 
 **Betaling via mobil:** Du kan ikke bruge dit DTU-mobilabonnement til betalinger (fx parkering via telefon). Du må dog sætte arbejdstelefonen op til betaling via din private konto — bekræftelsessms'en kan bruges som dokumentation og skal vedhæftes som bilag i DTU Fusion.
 
-**Rejsekort:** Du må bruge dit private Rejsekort til tjenesterejser. Brug kontoudtog fra Rejsekort som dokumentation. Gebyrer for manglende udtjek refunderes ikke. Alternativt kan enheden etablere et Rejsekort Erhverv tilknyttet enhedens EAN-nummer — dette må kun benyttes til arbejdsrelaterede formål.
+**Rejsekort:** Du må bruge dit private Rejsekort til tjenesterejser. Brug kontoudtog fra Rejsekort som dokumentation. Gebyrer for manglende udtjek refunderes ikke. Alternativt kan enheden etablere et **Rejsekort Erhverv** tilknyttet enhedens EAN-nummer — udgifterne faktureres samlet én gang om måneden til instituttet. Vær opmærksom på, at denne løsning kræver intern administration, da instituttet selv skal dokumentere, hvem der har brugt kortet og i hvilken sammenhæng. **Rejsekort Erhverv anbefales ikke til projektrelaterede rejser** og må kun benyttes til DTU-relaterede formål. Brug kræver, at instituttet indgår en rammeaftale med Rejsekort A/S.
 
 **PayPal:** PayPal-kvitteringen kan benyttes som gyldigt bilag ved internetkøb, forudsat at:
 
@@ -415,6 +476,18 @@ Ved afregning i anden valuta end den, der fremgår af bilaget, skal **valutakurs
 ### 6.6 Bankoverførselskvitteringer
 
 Bankoverførselskvitteringer kan **ikke** stå alene som dokumentation. De kan kun benyttes som **supplement** til en faktura eller bon.
+
+### 6.7 Elektroniske bilagsformater
+
+Elektroniske bilag skal være en nøjagtig gengivelse af originalen og tydeligt læsbare. DTU's systemer understøtter følgende filformater: **PDF, JPEG, TIFF, MSG, DOC og XLS**.
+
+**Undgå HEIC-filer** — det er standardformatet på nyere iPhones, og HEIC-filer er typisk for store og kan ikke åbnes korrekt i DTU's systemer. Konverter til JPEG inden upload. Se DTU's vejledning om ændring af filformat på iPhone.
+
+Følgende former for elektroniske bilag er accepteret:
+- Elektronisk originalbilag modtaget direkte fra leverandøren (fx PDF-faktura via e-mail).
+- Foto af et originalt papirbilag.
+- Billede af en sms (fx kvittering for parkeringsbillet betalt via telefon).
+- Skannet originalbilag.
 
 ---
 
@@ -510,6 +583,34 @@ Tjenestestedet er udgangspunktet for beregning. I tilfælde, hvor rejsen starter
 
 > **Bemærk – SKAT:** Du kan ikke på samme dag både modtage kørselsgodtgørelse og benytte kørselsfradrag. På dage, hvor du modtager rejsegodtgørelse, skal du reducere dit kørselsfradrag på din forskuds- eller årsopgørelse. Det er dit eget ansvar at indberette dette til SKAT.
 
+### 8.5 Taxakørsel
+
+Taxa må kun benyttes til korte ture, hvor det — efter vurdering fra din nærmeste leder og enhedens retningslinjer — anses for at være den mest hensigtsmæssige og økonomiske løsning sammenlignet med offentlig transport. Private forhold berettiger ikke til brug af taxa, og valget skal begrundes i udgiftsrapporten.
+
+DTU er tilknyttet en statslig rammeaftale for taxakørsel, der er opdelt geografisk. Rabatter opnås kun ved brug af DTU-kreditkort eller taxaboner.
+
+**Storkøbenhavn — Taxa 4x35:** Bestil via TAXA.nu, Taxa-appen (iOS eller Android) eller per telefon på **35 30 91 80** (VIP-linje). Husk at oplyse din enheds kontonummer ved bestilling.
+
+**Øvrige Sjælland samt Region Midt-, Syd- og Nordjylland — Dantaxi 4x48:** Bestil via Dantaxi-appen, internetbooking eller per telefon på **45 83 19 94** (VIP-linje). Oplys korrekt kontonummer for din enhed.
+
+**Uber:** Det er tilladt at bruge Uber. Gem kvittering fra *Your Trips* i appen, fra din e-mail eller ved at logge ind på riders.uber.com. Tip: Tilknyt din DTU-mailadresse til din Uber-konto for at holde erhvervs- og privatture adskilt.
+
+### 8.6 Billeje
+
+Billeje er en mulighed, når det er mest praktisk eller økonomisk fordelagtigt for DTU, og kræver godkendelse fra din leder. DTU har en aftale med Avis om billeje i hele verden.
+
+**I Danmark:** Book via DTU's aftalelink til Avis biludlejning. Levering og afhentning på Lyngby Campus er gratis — kontakt Avis på telefon **3328 6400** eller mail salg@avis.dk for at arrangere dette.
+
+**I udlandet:** Book billejen sammen med flyrejsen via myCWT, og vælg Avis som biludlejningsfirma. Der pålægges et gebyr på **30 kr.** ved samlet booking (fly + bil) og **25 kr.** ved billeje alene. For rejser fra Aalborg Lufthavn (som bl.a. DTU Aqua benytter) kan der bookes direkte via Avis' link til lufthavnsudlejning.
+
+Lejeudgiften afregnes som en almindelig rejseudgift i DTU Fusion med kvittering. Alle bøder — uanset om de opstår i arbejdstiden — er en personlig udgift og dækkes ikke af DTU.
+
+### 8.7 BroBizz
+
+Ved passage af Storebæltsbroen eller Øresundsbroen under en tjenesterejse anbefales det at bruge en DTU-tilknyttet BroBizz Erhverv. Det sikrer, at betalingen sker med dit DTU-kreditkort, at transaktionen registreres automatisk i DTU Fusion, og at dokumentationen er på plads.
+
+Du kan bestille en BroBizz Erhverv i DTU's navn, tilknytte dit DTU-kreditkort og blive oprettet som bruger. Selve løsningen er gratis, men kræver godkendelse fra din nærmeste leder. Bruger du i stedet din private BroBizz, er dokumentationen (kontoudtog fra BroBizz) mere besværlig at fremskaffe til udgiftsrapporten.
+
 ---
 
 ## 9. Repræsentations- og personaleudgifter
@@ -565,9 +666,41 @@ Rejse-, forplejnings- og opholdsudgifter for eksterne bør **ikke overstige** de
 
 Dokumentation skal være en egentlig kvittering eller faktura med specifikation af det købte. Kreditkortkvitteringer og ordrebekræftelser kan **ikke** stå alene som dokumentation.
 
-### 10.4 Afregning
+### 10.4 Afregning via eForms
 
-Udbetaling af udgifter og honorar til eksterne sker via **DTU eForms** (ikke DTU Fusion).
+Udbetaling af udgifter og honorar til eksterne sker via **DTU eForms** (ikke DTU Fusion). eForms bruges til refusion af udlæg, kørselsgodtgørelse, diæter og udbetaling af honorar til eksterne.
+
+**Inden oprettelse — kontaktpersonens tjekliste:**
+
+Inden en eForm-afregning oprettes, skal kontaktpersonen sikre følgende med den eksterne:
+
+1. **CVR-nummer?** Har den eksterne sit eget firma med CVR-nummer, skal der sendes en elektronisk faktura i stedet — ikke eForms.
+2. **Aftal udgifterne.** Kun merudgifter i forbindelse med ophold eller rejse for DTU kan refunderes. Dagligdags udgifter som personlig hygiejne, spiritus og slik refunderes ikke.
+3. **Oplys kategori.** Den eksterne skal i eForms vælge sin relation til DTU: *Særlige tilhørsforhold*, *Honorarmodtager* eller *Øvrigt*. Kontaktpersonen skal oplyse, hvilken kategori der gælder.
+4. **Oplys kontaktperson og formål.** Den eksterne skal angive kontaktpersonens navn og et sigende formål for udgiften eller honoraret.
+5. **Honorar og skatteoplysninger.** Ved honorar eller timeløn skal kontaktpersonen indhente CPR-nummer (for personer bosiddende i Danmark) eller fødselsdato, køn og TIN (Taxpayer Identification Number) for udenlandske modtagere. Honorar indberettes til SKAT.
+6. **Gem alle originale bilag.** Ordrebekræftelser og kreditkortkvitteringer kan ikke stå alene som dokumentation.
+
+**Behandling på enheden:**
+
+Indsendte afregninger modtages i **Institutmodtagelse** i eForms. Kontaktpersonen gennemgår og sikrer, at afregningen er korrekt, inden den sendes til godkendelse.
+
+Vigtige regler for behandlingen:
+- **Kontaktperson og godkender må ikke være den samme person.** Den eksterne kan hverken være kontaktperson eller godkender.
+- Kontrollér at beløb svarer til bilagenes valuta, at alle udgifter er dokumenteret med originale bilag, at kontering er korrekt, og at projekt og opgave er åbne.
+- Fejl rettes via **"Ret blanket"**. Fejl i den eksternes personlige oplysninger (bankoplysninger, fødselsdato, TIN) returneres til den eksterne.
+- Når afregningen er godkendt, sendes den videre med **"Bekræft & send videre"**.
+- Status på afregningen følges under *Vis alle* i eForms ved at søge på **SUB-nummer**. Afvises en afregning, fremgår årsagen i log/noter.
+
+**Udbetaling:**
+
+| Type | Udbetalingsvej | Kadence |
+|---|---|---|
+| Udlæg, diæter og kørselsgodtgørelse | Kreditor | To gange om ugen |
+| Honorar til ekstern **uden** dansk CPR-nummer | Kreditor | To gange om ugen |
+| Honorar til ekstern **med** dansk CPR-nummer | HR Løn | To gange om måneden (i forbindelse med DTU's lønkørsler) |
+
+**Stedfortræder:** Har du fravær, kan du oprette en kollega som stedfortræder, der kan håndtere eForms-afregninger på dine vegne.
 
 ### 10.5 Studerende med obligatoriske kurser
 
@@ -674,6 +807,43 @@ Kundenummer: 30060946
 Adgangskode: 64906003
 
 **Spørgsmål om rejseforsikringer ved udlandsrejse:** Kontakt Christian Landsgaard.
+
+### 12.6 Sygdom under tjenesterejse
+
+Bliver du syg eller kommer til skade på en tjenesterejse, skal du hurtigst muligt kontakte **Europæiskes alarmcentral på +45 70 10 90 30** (døgnåbent), som sætter dig i forbindelse med en professionel eller en læge. Hvis din tilstand er livstruende, skal du straks kontakte den lokale alarmcentral.
+
+I nogle tilfælde skal du selv lægge ud for lægebehandling og medicin — gem altid kvitteringer, så udgifterne kan refunderes efterfølgende.
+
+Har du en kronisk eller midlertidig lidelse, der kan kræve behandling under rejsen, gælder særlige regler, og du risikerer i visse tilfælde ikke at være dækket. Hvis du er i tvivl, kan du søge medicinsk forhåndstilsagn fra Europæiskes lægekonsulent. Blanketten skal indsendes til Europæiske **senest 14 dage før afrejse**.
+
+### 12.7 Bagage – forsinket, stjålet eller ødelagt
+
+**Forsinket bagage:** Dukker din bagage ikke op efter en flyrejse, skal du henvende dig til bagageservice i lufthavnen og få udstedt en **PIR (Property Irregularity Report)**. Rapporten bekræfter, at bagagen mangler, og er nødvendig for at finde den igen og anmelde skaden.
+
+**Stjålet bagage:** Tyveriet skal anmeldes til det lokale politi. Sørg for at få en kopi af politirapporten — eller som minimum noter rapportens nummer til brug ved skadesanmeldelse.
+
+**Ødelagt bagage:** Beskadigelse skal anmeldes i lufthavnen med skriftlig dokumentation. Gem den ødelagte bagage, indtil du har talt med Europæiske Rejseforsikring.
+
+Computere, forskningsudstyr og andet tjenstligt grej er omfattet af statens selvforsikring. Instituttet dækker selv tab op til **200.000 kr.** Private ejendele er som udgangspunkt dækket op til **15.000 kr.** Det anbefales at fotografere udstyr og notere serienumre inden afrejse — det letter både politianmeldelse og eventuel erstatningssag.
+
+Har du brugt dit DTU-kreditkort til erstatningskøb i forbindelse med en skade (fx nødvendige indkøb ved forsinket eller bortkommet bagage), skal disse registreres som **personlig udgift** i DTU Fusion. Det er Europæiske, der vurderer sagen og fastsætter erstatningen — eventuel erstatning udbetales **direkte til dig** og ikke til DTU. DTU refunderer efterfølgende det udbetalte beløb til Europæiske som del af statens selvforsikringsordning.
+
+### 12.8 Privat rejseforsikring
+
+Som ansat på DTU har du mulighed for at tegne privat rejseforsikring med rabat hos Europæiske Rejseforsikring. Aftalen gælder også for ægtefælle/samlever og hjemmeboende børn under 18 år.
+
+Rabatsatserne er: **20 %** rabat på ferierejseforsikring (op til 3 måneders varighed), **15 %** rabat på årsrejseforsikring og årsafbestillingsforsikring, og **20 %** rabat på afbestillingsforsikring. Forsikringen tegnes direkte via Europæiske Rejseforsikrings hjemmeside.
+
+### 12.9 Rejseforsikringskort
+
+Når du rejser i tjenstligt øjemed for DTU, anbefales det at medbringe et **rejseforsikringskort** som dokumentation for, at du er dækket af DTU's tjenesterejseforsikring. Kortet hentes og printes via Europæiske Rejseforsikrings hjemmeside.
+
+Ved udfyldelse gælder følgende:
+- **Pass no. skal ikke udfyldes.**
+- **CVR-nr. = 30060946.**
+- **Underskriv kortet, inden du tager det med på rejsen.**
+
+Du er dækket af forsikringen, uanset om du har kortet med — men kortet kan hjælpe med at dokumentere din dækning over for fx hospitaler og læger i udlandet. Forsikringskortet gælder **kun ved tjenesterejser for DTU** og må ikke bruges i forbindelse med private rejser.
 
 ---
 

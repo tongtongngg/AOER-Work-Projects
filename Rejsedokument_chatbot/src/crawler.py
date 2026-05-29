@@ -66,8 +66,8 @@ async def run_smart_pipeline(hub_urls, output_dir, pdf_log_file, session_dir):
 
         to_crawl = []
         pdf_links = []
-        keywords = ["oekonomi", "afregning", "rejser", "udgifter", "transport", "kørsel", "taxa", "kreditkort", "CWT", "fly", "afregning", "godtgørelse"]
-
+        # keywords = ["oekonomi", "afregning", "rejser", "udgifter", "transport", "kørsel", "taxa", "kreditkort", "CWT", "fly", "afregning", "godtgørelse"]
+        keywords = ["transport", "kørsel", "taxa","CWT", "tjenesterejse", "flyforsinkelse", "Lavprisfly", "rejseforsikringskort", "transport", "brobizz", "parkering"]
         # Phase 1: Scan Hubs for links
         for hub_url in hub_urls:
             print(f"Scanning Hub: {hub_url}")
@@ -77,7 +77,8 @@ async def run_smart_pipeline(hub_urls, output_dir, pdf_log_file, session_dir):
                     links = hub_result.links.get("internal", [])
                     for link in links:
                         href = link.get("href", "")
-                        if any(word in href.lower() for word in keywords) and href.startswith("http"):
+                        text = link.get("text", "").lower()
+                        if any(word in href.lower() or word in text for word in keywords) and href.startswith("http"):
                             if href.lower().endswith(".pdf"):
                                 if href not in pdf_links:
                                     pdf_links.append(href)
@@ -86,23 +87,21 @@ async def run_smart_pipeline(hub_urls, output_dir, pdf_log_file, session_dir):
             except Exception as e:
                 print(f"Hub error: {e}")
 
-        # Save PDF list
-        if pdf_links:
-            with open(pdf_log_file, "w", encoding="utf-8") as f:
-                f.write("--- MANUAL DOWNLOAD LIST (PDF) ---\n")
-                for link in pdf_links:
-                    f.write(f"{link}\n")
-            print(f"LOGGED: {len(pdf_links)} PDF links saved to {pdf_log_file}")
+        print(f"Found {len(to_crawl)} webpages. Starting BFS extraction...")
 
-        print(f"Found {len(to_crawl)} webpages. Starting extraction...")
+        # Phase 2: BFS crawl — follow sub-links that stay within each hub's own section
+        hub_prefixes = [h.rstrip("/") + "/" for h in hub_urls]
+        visited = set(to_crawl)
+        queue = list(to_crawl)
+        i = 0
 
-        # Phase 2: Crawl webpages only
-        for i, url in enumerate(to_crawl):
+        while queue:
+            url = queue.pop(0)
             url_slug = url.rstrip("/").split("/")[-1] or f"page_{i}"
             file_path = target_folder / f"{url_slug}.md"
 
             try:
-                await asyncio.sleep(2) # Natural delay to help page load
+                await asyncio.sleep(2)
                 result = await crawler.arun(url=url, config=run_config)
 
                 if result.success and _is_login_page(result):
@@ -114,16 +113,36 @@ async def run_smart_pipeline(hub_urls, output_dir, pdf_log_file, session_dir):
                 if result.success:
                     content = result.markdown.raw_markdown
 
-                    # If it looks like a 404 or empty redirect, skip it
                     if "404" in content or len(content) < 500:
                         print(f"SKIP: {url_slug} (Likely no access or 404)")
-                        continue
+                    else:
+                        header = f"# Source: {url}\n# Title: {url_slug.replace('-', ' ').title()}\n\n"
+                        with open(file_path, "w", encoding="utf-8") as f:
+                            f.write(header + content)
+                        print(f"SAVED: {url_slug}.md | Characters: {len(content)}")
 
-                    header = f"# Source: {url}\n# Title: {url_slug.replace('-', ' ').title()}\n\n"
-                    with open(file_path, "w", encoding="utf-8") as f:
-                        f.write(header + content)
-                    print(f"SAVED: {url_slug}.md | Characters: {len(content)}")
+                        # Queue sub-links that stay within the hub URL scope
+                        for link in result.links.get("internal", []):
+                            href = link.get("href", "")
+                            if not href.startswith("http") or href in visited:
+                                continue
+                            if any(href.startswith(prefix) for prefix in hub_prefixes):
+                                if href.lower().endswith(".pdf"):
+                                    if href not in pdf_links:
+                                        pdf_links.append(href)
+                                else:
+                                    queue.append(href)
+                                    visited.add(href)
                 else:
                     print(f"FAIL: {url}")
             except Exception as e:
                 print(f"Error on {url}: {e}")
+            i += 1
+
+        # Save PDF list (after BFS so PDFs found during sub-crawl are included)
+        if pdf_links:
+            with open(pdf_log_file, "w", encoding="utf-8") as f:
+                f.write("--- MANUAL DOWNLOAD LIST (PDF) ---\n")
+                for link in pdf_links:
+                    f.write(f"{link}\n")
+            print(f"LOGGED: {len(pdf_links)} PDF links saved to {pdf_log_file}")
