@@ -1,6 +1,6 @@
 # DTU Retningslinjer for Tjenesterejser og Udgiftsafregning
 
-Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, transport, udgiftsafregning og kreditkortstyring på DTU. Retningslinjerne er baseret på statens tjenesterejseaftale, Satsreguleringscirkulæret pr. 1. januar 2026 og DTU's egne interne regler.
+Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, transport, udgiftsafregning og kreditkortstyring på DTU. Retningslinjerne er baseret på statens tjenesterejseaftale, Personaleadministrativ Vejledning (PAV) kapitel 21, Satsreguleringscirkulæret pr. 1. januar 2026 og DTU's egne interne regler.
 
 ---
 
@@ -643,6 +643,8 @@ Kørselsgodtgørelse ydes i henhold til Cirkulære om tjenesterejseaftalen og d�
 
 Taksterne reguleres hvert år den **1. januar** og fremgår af Satsreguleringscirkulæret.
 
+> **Bemærk:** Taksterne efter § 14 og § 15 gælder både privat bil og privat motorcykel. Knallert og cykel afregnes altid efter § 17.
+
 Når du afregner kørsel i DTU Fusion, skal du oplyse **bilens registreringsnummer** (krav fra Motorstyrelsen for skattefrihed), **formålet med kørslen** samt **navne på eventuelle medpassagerer** ved samkørsel.
 
 ### 8.3 Bemyndigelse til kørsel efter høj takst
@@ -650,8 +652,9 @@ Når du afregner kørsel i DTU Fusion, skal du oplyse **bilens registreringsnumm
 En bemyndigelse til høj takst kan udstedes for op til 20.000 km pr. kalenderår. Betingelserne er:
 
 - Stillingen er forbundet med **regelmæssig kørsel af større omfang og/eller særlig art**.
-- **Regelmæssig kørsel** betyder mindst **12 ture pr. kalenderår** (forholdsmæssigt ved kortere perioder).
+- **Regelmæssig kørsel** betyder mindst **12 ture pr. kalenderår** (forholdsmæssigt ved kortere perioder — fx mindst **6 ture** for en halvårlig periode).
 - **Særlig art** omfatter: møder med eksterne interessenter, forskningsrelaterede møder og undervisning samt kørsel mellem DTU's egne lokationer.
+- Kørslen skal desuden være et **nødvendigt eller hensigtsmæssigt led i enhedens løbende drift** eller indgå som led i udførelsen af et forskningsprojekt el.lign.
 - Bemyndigelsen kan **ikke** være generel og kan kun udstedes til enkeltpersoner.
 - Det er instituttets/afdelingens øverste ledelse, der vurderer og udsteder bemyndigelsen.
 - Bemyndigelsen gives via blanketten **"Bemyndigelse – høj takst"**, som skal udfyldes og godkendes, før høj takst kan anvendes, og **skal fornyes mindst hvert 5. år** — eller hvis dit ansættelsesforhold ændrer sig.
@@ -659,7 +662,7 @@ En bemyndigelse til høj takst kan udstedes for op til 20.000 km pr. kalenderår
 
 ### 8.4 Start- og slutpunkt for kørselsgodtgørelse
 
-Tjenestestedet er udgangspunktet for beregning. I tilfælde, hvor rejsen starter eller slutter fra bopælen, afhænger dækningen af dit normale transportmiddel:
+Tjenestestedet er udgangspunktet for beregning. Formålet er at dække dine **merudgifter** ved kørslen — det skal derfor tilstræbes, at du hverken ender med et overskud eller en merudgift. I tilfælde, hvor rejsen starter eller slutter fra bopælen, afhænger dækningen af dit normale transportmiddel:
 
 | Normalt pendlingsmiddel | Beregning af godtgørelse |
 |---|---|
@@ -1013,4 +1016,4 @@ Den fulde superbrugerliste kan søges på DTU Inside.
 
 ---
 
-*Disse retningslinjer er baseret på statens Cirkulære om tjenesterejseaftalen, Satsreguleringscirkulæret pr. 1. januar 2026 (Medst.nr. 119-25) samt DTU's interne regler (DTU DOC: 16/10281). Satserne reguleres hvert år den 1. januar. Kontakt AØR ved tvivl om aktuelle satser.*
+*Disse retningslinjer er baseret på statens Cirkulære om tjenesterejseaftalen, Personaleadministrativ Vejledning (PAV) kapitel 21, Satsreguleringscirkulæret pr. 1. januar 2026 (Medst.nr. 119-25) samt DTU's interne regler (DTU DOC: 16/10281). Satserne reguleres hvert år den 1. januar. Kontakt AØR ved tvivl om aktuelle satser.*
