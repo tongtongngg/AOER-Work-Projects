@@ -7,7 +7,7 @@ Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, t
 ## Indhold
 
 1. [Roller og ansvar](#1-roller-og-ansvar)
-2. [Før tjenesterejsen](#2-før-tjenesterejsen)
+2. [Tjekliste for tjenesterejsen](#2-tjekliste-for-tjenesterejsen)
 3. [Booking af rejse og overnatning](#3-booking-af-rejse-og-overnatning)
 4. [Godtgørelsesmetoder](#4-godtgørelsesmetoder)
 5. [DTU Kreditkort](#5-dtu-kreditkort)
@@ -39,7 +39,11 @@ Heidi Bielefeldt, Teamleder — hep@adm.dtu.dk
 
 ---
 
-## 2. Før tjenesterejsen
+## 2. Tjekliste for tjenesterejsen
+
+Brug denne tjekliste som overblik over, hvad du skal huske før, under og efter din tjenesterejse, så du undgår forsinkelser og fejl i afregningen.
+
+### 2.1 Før rejsen
 
 Inden du påbegynder en tjenesterejse, skal du gennemføre følgende trin:
 
@@ -49,6 +53,22 @@ Inden du påbegynder en tjenesterejse, skal du gennemføre følgende trin:
 4. **Afklar godtgørelsesmetoden** med din enhed — time-/dagpenge, procentgodtgørelse eller refusion af dokumenterede udgifter — se [afsnit 4](#4-godtgørelsesmetoder).
 5. **Har du en kronisk sygdom eller er syg op til afrejse**, kontakt Europæiske ERV for at sikre, at rejseforsikringen dækker.
 6. **Medbringer du særligt udstyr**, der skal forsikres, kontakt Jura og Kontrakter (AFRI) i god tid.
+
+### 2.2 Under rejsen
+
+- **Gem kvitteringer** for alle udgifter, herunder hotel, transport og konferencegebyrer.
+- Rejser du på **procentgodtgørelse** eller **dokumenterede merudgifter**, skal du også gemme kvitteringer for måltider — se [afsnit 4](#4-godtgørelsesmetoder).
+- Husk, at en **kreditkortkvittering ikke er tilstrækkelig dokumentation** — det skal fremgå, hvad der er købt.
+- Hæv kun kontanter med dit DTU-kreditkort **i udlandet** (ikke i Danmark) — se [afsnit 5.5](#55-kontanthævning).
+- **Drikkepenge** refunderes kun, hvor det er kutyme (fx i USA og dele af Asien) — se [afsnit 4.5](#45-drikkepenge).
+
+### 2.3 Efter rejsen
+
+- **Scan dine bilag og kvitteringer.**
+- **Lav rejseafregningen** i DTU Fusion **senest 30 dage efter hjemkomst** — se [afsnit 7](#7-udgiftsrapport-i-dtu-fusion).
+- **Få afregningen godkendt** af din leder eller enhed.
+
+> **Spørgsmål?** Spørgsmål om reglerne for tjenesterejser rettes til din lokale superbruger (se [afsnit 14](#14-support-og-superbrugere)). Spørgsmål om rejseforsikring ved udlandsrejse rettes til Christian Landsgaard.
 
 ---
 
@@ -81,11 +101,15 @@ Udgangspunktet er altid **billigste billet (economy-klasse)**. Afvigelser kræve
 
 > **Bemærk:** Arbejdsindsats i denne sammenhæng betyder deltagelse i møde, undervisning eller afholdelse af foredrag. Deltagelse i seminarer, konferencer eller udstillinger tæller ikke som "arbejdsindsats" i denne definition.
 
-Hvis den ønskede flyvning ikke tilbydes af CWT, kan den bookes hos en anden udbyder. Visse lavprisflyselskaber kræver registrering med et kreditkort ved bestilling gennem CWT — i disse tilfælde kan DTU-kreditkortet bruges til dette formål.
+Hvis den ønskede flyvning ikke tilbydes af CWT, kan den bookes hos en anden udbyder. Tilbyder CWT fx ikke en indenrigsrejse, kan du undlade at bruge CWT til både indenrigsrejsen og de internationale flyrejser, der skal hænge sammen med den (fx til Grønland). Visse lavprisflyselskaber kræver registrering med et kreditkort ved bestilling gennem CWT — i disse tilfælde kan DTU-kreditkortet bruges til dette formål.
+
+Opstår der en særlig situation undervejs — fx hvis du er strandet under en mellemlanding, og dit næste fly bliver aflyst — må du selv købe en ny flybillet med dit DTU-kreditkort.
 
 ### 3.3 Togrejser
 
 Som udgangspunkt rejses på billigste billet. Ved rejser på **over én time** kan DSB 1. klasse eller tilsvarende benyttes, hvis rejsetiden anvendes tjenstligt.
+
+Togrejser **skal ikke** bookes via CWT — pligten til at booke via CWT (afsnit 3.1) gælder kun fly og hotel. Du kan derfor frit købe elektroniske togbilletter selv, fx via Rejseplanen. Vælger du alligevel at bestille tog via CWT, skal du registrere korrekt adresse i bookingsystemet, så billetterne kommer frem.
 
 ### 3.4 Hotel og overnatning
 
@@ -96,6 +120,51 @@ Overnatning bookes som udgangspunkt via CWT. Følgende undtagelser er tilladt, s
 - Ophold i udlandet over **mere end én uges sammenhængende overnatninger** på samme sted (fx ved udstationering) — Airbnb, Homeaway eller lignende er tilladt. Bemærk, at der ikke er samme sikkerhed som ved hotel (fx ved fremkomst). Dokumentationen skal opfylde gældende bilagskrav.
 
 > **Bemærk:** DTU dækker **ikke** rejseudgifter for medrejsende ægtefælle eller ledsager.
+
+**Hoteldispositionsbeløb:** Hoteldispositionsbeløbet er den maksimale sats, DTU må dække pr. hotelovernatning på en tjenesterejse. Satsen er fastsat af staten og angiver det økonomiske råderum pr. nat — uanset bookingform. Overskrides beløbet uden acceptabel forklaring, dækker DTU kun op til satsen.
+
+**Gældende hoteldispositionsbeløb pr. 1. januar 2026 (Danmark og Færøerne):**
+
+| Område | Beløb |
+|---|---|
+| Danmark (ureduceret) | 1.844 kr. |
+| Færøerne (ureduceret) | 1.576 kr. |
+
+**Gældende hoteldispositionsbeløb pr. 1. januar 2026 (udlandet):**
+
+| Land | Valuta | Beløb |
+|---|---|---|
+| Belgien | EUR | 190 |
+| Canada | CAD | 352 + tax |
+| Finland | EUR | 154 |
+| Frankrig | EUR | 201 |
+| Grækenland | EUR | 137 |
+| Holland | EUR | 197 |
+| Irland | EUR | 169 |
+| Island | ISK | 38.298 |
+| Italien | EUR | 166 |
+| Luxembourg | EUR | 177 |
+| Norge | NOK | 2.234 |
+| Portugal | EUR | 153 |
+| Schweiz | CHF | 226 |
+| Spanien | EUR | 177 |
+| Storbritannien | GBP | 189 |
+| Sverige | SEK | 2.039 |
+| Tyskland | EUR | 157 |
+| USA (New York og Washington D.C.) | USD | 329 + tax |
+| USA (i øvrigt) | USD | 281 + tax |
+| Østrig | EUR | 137 |
+
+- Beløbene er **inkl. moms**. Hoteldispositionsbeløbet for Danmark fastsættes ud fra den statslige hotelaftale og reguleres pr. 15. marts hvert år.
+- Hoteller på den statslige hotelaftale, der overstiger beløbet, kan også refunderes.
+- For lande uden et fastsat beløb refunderes rimelige udgifter til et hotelværelse med bad eller anden godkendt indkvartering mod dokumentation (jf. § 28, stk. 4, i tjenesterejseaftalen).
+- Ved rejser over 28 dage nedsættes hoteldispositionsbeløbet fra dag 29 — se [afsnit 11.1](#111-nedsatte-satser-fra-dag-29).
+
+**Udokumenteret nattillæg:** Overnatter du privat (fx hos familie eller venner) uden en dokumenteret hoteludgift, kan du i stedet få et **udokumenteret nattillæg på 268,00 kr.** (ureduceret sats pr. 1. januar 2026). Tillægget kan fx bruges som en lille opmærksomhed til værten (som en buket blomster). Også denne sats nedsættes fra dag 29 ved længerevarende rejser — se [afsnit 11.1](#111-nedsatte-satser-fra-dag-29).
+
+**Dokumentation:** Når du har betalt for dit ophold, skal du indhente en hotelfaktura, som bruges som dokumentation ved afregning i DTU Fusion (se [afsnit 6.3](#63-transportbilag)).
+
+**Ændring og afbestilling:** Skal du ændre eller afbestille dit ophold, kontakter du CWT. Da du ikke må tegne afbestillingsforsikring til tjenesterejser (statens selvforsikringsordning), kan du kun få refunderet en del af udgiften ved afbestilling — afhængigt af CWT's og hotellets betingelser.
 
 ### 3.5 Bonuspoint optjent på tjenesterejser
 
@@ -172,37 +241,43 @@ Time-/dagpenge udbetales som en fast sats pr. døgn og dækker alle forplejnings
 | II | Reduceret med 1/4 i Danmark (fra dag 29) | 403,50 kr. | 16,81 kr. |
 | III | Reduceret med 1/6 på Færøerne (fra dag 29) | 448,33 kr. | 18,68 kr. |
 
-Satserne kan ved lokal aftale (jf. § 22, stk. 3) være højere, dog aldrig mere end: dagpenge 625,00 kr. og timepenge 26,04 kr. (ureduceret).
+Satserne kan ved lokal aftale (jf. § 22, stk. 3) være højere, dog aldrig mere end nedenstående maksimumsatser:
+
+| | Dagpenge maks. | Timepenge maks. |
+|---|---|---|
+| I Ureducerede satser | 625,00 kr. | 26,04 kr. |
+| II Reduceret med 1/4 i Danmark (fra dag 29) | 468,75 kr. | 19,53 kr. |
+| III Reduceret med 1/6 på Færøerne (fra dag 29) | 520,83 kr. | 21,70 kr. |
 
 **Gældende satser pr. 1. januar 2026 (udlandet og Grønland):**
 
-Standardsatsen for udlandet og Grønland er **625 kr. pr. døgn**. For nedenstående lande gælder lavere satser:
+Standardsatsen for udlandet og Grønland er **625 kr. pr. døgn** (dagpenge) og **156,25 kr. pr. døgn** (procentgodtgørelse). For nedenstående lande gælder lavere satser:
 
-| Land | Dagpenge (kr.) |
-|---|---|
-| **Europa** | |
-| Bulgarien | 466 |
-| Slovakiet | 446 |
-| **Afrika** | |
-| Mozambique | 419 |
-| Sydafrika | 347 |
-| Tunesien | 496 |
-| Zambia | 476 |
-| Zimbabwe | 360 |
-| Ægypten | 481 |
-| **Amerika** | |
-| Bolivia | 360 |
-| Colombia | 476 |
-| Cuba | 503 |
-| **Asien** | |
-| Bangladesh | 476 |
-| Bhutan | 263 |
-| Indien | 347 |
-| Iran | 360 |
-| Malaysia | 352 |
-| Nepal | 292 |
-| Pakistan | 298 |
-| Thailand | 430 |
+| Land | Dagpenge (kr.) | Procentgodtgørelse (kr.) |
+|---|---|---|
+| **Europa** | | |
+| Bulgarien | 466 | 139,80 |
+| Slovakiet | 446 | 133,80 |
+| **Afrika** | | |
+| Mozambique | 419 | 125,70 |
+| Sydafrika | 347 | 104,10 |
+| Tunesien | 496 | 148,80 |
+| Zambia | 476 | 142,80 |
+| Zimbabwe | 360 | 108,00 |
+| Ægypten | 481 | 144,30 |
+| **Amerika** | | |
+| Bolivia | 360 | 108,00 |
+| Colombia | 476 | 142,80 |
+| Cuba | 503 | 150,90 |
+| **Asien** | | |
+| Bangladesh | 476 | 142,80 |
+| Bhutan | 263 | 78,90 |
+| Indien | 347 | 104,10 |
+| Iran | 360 | 108,00 |
+| Malaysia | 352 | 105,60 |
+| Nepal | 292 | 87,60 |
+| Pakistan | 298 | 89,40 |
+| Thailand | 430 | 129,00 |
 
 **Måltidsfradrag ved gratis måltider:**
 
@@ -216,6 +291,8 @@ Gratis måltider (fx hotelmorgenmad, mødeforplejning, konferencemiddag) skal ma
 | Fuld kost (alle tre måltider) | 75 % af dagpengesatsen |
 
 *Eksempel ved ureduceret sats 538,00 kr.: morgenmad 80,70 kr., frokost 161,40 kr., middag 161,40 kr., fuld kost 403,50 kr.*
+
+*Eksempel ved ureduceret sats 625,00 kr. (udlandet og Grønland): morgenmad 93,75 kr., frokost 187,50 kr., middag 187,50 kr., fuld kost 468,75 kr.*
 
 - De gældende satser reguleres hvert år den **1. januar** og fremgår af Satsreguleringscirkulæret.
 - Du må **ikke** bruge DTU kreditkort til udgifter, der er dækket af time-/dagpenge.
@@ -454,6 +531,8 @@ Derudover gælder specifikke krav per transportform:
 | **Bro og parkering** | Kreditkortkvittering accepteres som eneste undtagelse som gyldigt bilag. |
 | **Lufthavnsparkering** | Vedhæft både reservationsbekræftelse **og** kontoudtog. |
 
+> **Bemærk om parkering:** Parkering refunderes, når den sker i forbindelse med en godkendt tjenesterejse, er rimelig og nødvendig, og kan dokumenteres — uanset om du bruger egen bil, lejebil eller samkørsel. Dokumentationen skal vise **beløb, dato/tidspunkt og lokation eller udbyder**. En kreditkortkvittering kan kun bruges, hvis disse oplysninger tydeligt fremgår — ellers skal du vedlægge en parkeringsbillet eller kvittering udstedt af parkeringsudbyderen.
+
 ### 6.4 Elektroniske betalinger
 
 **MobilePay:** Kvitteringen fra MobilePay er ikke alene tilstrækkelig dokumentation og skal suppleres med yderligere bilag. Du kan også bruge dit DTU kreditkort i MobilePay på din arbejdstelefon.
@@ -523,6 +602,8 @@ Har du udgifter til en rejse, der endnu ikke er afsluttet (fx forudbetalt flybes
 3. Tilføj udgifter løbende, efterhånden som de opstår.
 4. Færdiggør og indsend rapporten **senest 30 dage efter hjemkomst**.
 
+> **Bemærk – rejser over 30 dage:** Strækker en rejse sig over mere end 30 dage, skal du afregne de allerede afholdte udgifter inden for **hver 30-dages periode** (jf. regnskabsinstruksen), så DTU kan overholde sine betalingsfrister over for leverandører. Den sidste periode afregnes senest 30 dage efter rejsens afslutning.
+
 ### 7.4 Personlige udgifter på DTU kreditkort
 
 Kreditkorttransaktioner, som **ikke** skal betales af DTU, skal tilknyttes en udgiftsrapport og klassificeres som **"personlig"**. Dette gøres ikke via en udspecificering.
@@ -562,6 +643,8 @@ Kørselsgodtgørelse ydes i henhold til Cirkulære om tjenesterejseaftalen og d�
 
 Taksterne reguleres hvert år den **1. januar** og fremgår af Satsreguleringscirkulæret.
 
+Når du afregner kørsel i DTU Fusion, skal du oplyse **bilens registreringsnummer** (krav fra Motorstyrelsen for skattefrihed), **formålet med kørslen** samt **navne på eventuelle medpassagerer** ved samkørsel.
+
 ### 8.3 Bemyndigelse til kørsel efter høj takst
 
 En bemyndigelse til høj takst kan udstedes for op til 20.000 km pr. kalenderår. Betingelserne er:
@@ -571,6 +654,8 @@ En bemyndigelse til høj takst kan udstedes for op til 20.000 km pr. kalenderår
 - **Særlig art** omfatter: møder med eksterne interessenter, forskningsrelaterede møder og undervisning samt kørsel mellem DTU's egne lokationer.
 - Bemyndigelsen kan **ikke** være generel og kan kun udstedes til enkeltpersoner.
 - Det er instituttets/afdelingens øverste ledelse, der vurderer og udsteder bemyndigelsen.
+- Bemyndigelsen gives via blanketten **"Bemyndigelse – høj takst"**, som skal udfyldes og godkendes, før høj takst kan anvendes, og **skal fornyes mindst hvert 5. år** — eller hvis dit ansættelsesforhold ændrer sig.
+- Høj takst gælder **ikke** ved kørsel i udlandet; her afregnes altid til lav takst (§ 16).
 
 ### 8.4 Start- og slutpunkt for kørselsgodtgørelse
 
@@ -581,7 +666,9 @@ Tjenestestedet er udgangspunktet for beregning. I tilfælde, hvor rejsen starter
 | **Bil** | Kun km ud over den daglige pendlingsafstand dækkes. Eksempel: 10 km til arbejde dagligt, rejsen er 50 km i alt → 50 − (2 × 10) = **30 km dækkes**. |
 | **Tog eller offentlig transport** | Hele kørslen fra bopælen dækkes, da brug af bil er en merudgift i forhold til normal pendling. Eksempel: 50 km i bil → **50 km dækkes**. |
 
-> **Bemærk – SKAT:** Du kan ikke på samme dag både modtage kørselsgodtgørelse og benytte kørselsfradrag. På dage, hvor du modtager rejsegodtgørelse, skal du reducere dit kørselsfradrag på din forskuds- eller årsopgørelse. Det er dit eget ansvar at indberette dette til SKAT.
+Ved **VEU-kurser** kan du få godtgørelse fra/til din hjemmeadresse. Dette skal tydeligt fremgå i DTU Fusion.
+
+> **Bemærk – SKAT:** Du kan ikke på samme dag både modtage kørselsgodtgørelse og benytte kørselsfradrag. Får du normalt kørselsfradrag, fordi du sammenlagt har **over 24 km til arbejde** (frem og tilbage), skal du på dage, hvor du modtager rejsegodtgørelse, reducere dit kørselsfradrag på din forskuds- eller årsopgørelse. Det er dit eget ansvar at indberette dette til SKAT.
 
 ### 8.5 Taxakørsel
 
@@ -812,7 +899,7 @@ Adgangskode: 64906003
 
 Bliver du syg eller kommer til skade på en tjenesterejse, skal du hurtigst muligt kontakte **Europæiskes alarmcentral på +45 70 10 90 30** (døgnåbent), som sætter dig i forbindelse med en professionel eller en læge. Hvis din tilstand er livstruende, skal du straks kontakte den lokale alarmcentral.
 
-I nogle tilfælde skal du selv lægge ud for lægebehandling og medicin — gem altid kvitteringer, så udgifterne kan refunderes efterfølgende.
+I nogle tilfælde skal du selv lægge ud for lægebehandling og medicin — gem altid kvitteringer, så udgifterne kan refunderes efterfølgende. Du har pligt til at begrænse skadens omfang — og dermed udgifterne — så vidt det er muligt.
 
 Har du en kronisk eller midlertidig lidelse, der kan kræve behandling under rejsen, gælder særlige regler, og du risikerer i visse tilfælde ikke at være dækket. Hvis du er i tvivl, kan du søge medicinsk forhåndstilsagn fra Europæiskes lægekonsulent. Blanketten skal indsendes til Europæiske **senest 14 dage før afrejse**.
 
