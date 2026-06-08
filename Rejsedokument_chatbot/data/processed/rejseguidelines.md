@@ -18,8 +18,7 @@ Dette dokument beskriver de gældende regler og procedurer for tjenesterejser, t
 10. [Udgifter for eksterne (ikke-ansatte)](#10-udgifter-for-eksterne-ikke-ansatte)
 11. [Længerevarende tjenesterejser (over 28 dage)](#11-længerevarende-tjenesterejser-over-28-dage)
 12. [Rejseforsikring](#12-rejseforsikring)
-13. [Anlægsaktiver](#13-anlægsaktiver)
-14. [Support og superbrugere](#14-support-og-superbrugere)
+13. [Support og superbrugere](#13-support-og-superbrugere)
 
 ---
 
@@ -193,6 +192,8 @@ CWT kan kontaktes på følgende måder:
 | Grupperejser | Tlf. 3363 7676 / cwtdkevents@cwt-me.com |
 | Fakturaer | support.staten.dk@mycwt.com |
 | Reklamationer og klager | customercare.dk@contactcwt.com |
+
+**Online bookingsystem:** Du booker selv via myCWT på [travel.mycwt.com](https://travel.mycwt.com/login). En vejledning til at navigere i systemet findes i [myCWT Quick Navigation Guide](https://help.mycwt.com/en/articles/1616859-mycwt-quick-navigation-guide).
 
 **Åbningstider:** Mandag–fredag kl. 8:30–16:30. Nødopkald uden for åbningstid kan foretages på tlf. 3363 7777 — vær opmærksom på, at der opkræves et servicegebyr på **220 kr.** pr. opkald.
 
@@ -937,53 +938,7 @@ Du er dækket af forsikringen, uanset om du har kortet med — men kortet kan hj
 
 ---
 
-## 13. Anlægsaktiver
-
-### 13.1 Hvornår er noget et anlæg?
-
-For at en udgift kan registreres som et anlægsaktiv, skal alle fire kriterier være opfyldt:
-
-| Kriterium | Krav |
-|---|---|
-| **Lang levetid** | Økonomisk levetid på over 1 år |
-| **Værdi** | Anskaffelsessum på mindst 100.000 kr. ekskl. moms |
-| **Selvstændigt aktiv** | Skal fungere uafhængigt (eller indgå i et allerede registreret anlæg) |
-| **Ejerskab** | DTU skal eje anlægget i hele dets levetid |
-
-### 13.2 Hvad kan anlægsføres?
-
-Et anlægsaktiv værdiansættes til kostprisen inkl. alle nødvendige omkostninger frem til ibrugtagning. Det inkluderer bl.a.:
-
-- Selve udstyret eller anlægget.
-- Udvikling og opbygning af anlæg (kontakt altid Team Anlæg).
-- Licenser over 100.000 kr. med varighed på mindst tre år.
-- Anlægsløn, der bidrager til anlægget (aftales med Team Anlæg og Controller).
-- Told og afgifter (ekskl. moms), levering og transport.
-- Installationsomkostninger nødvendige for funktion.
-- Interne produktionsomkostninger.
-- Store ombygninger, fx ændring af lokaler (vurderes af Team Anlæg).
-- Konsulenthonorarer direkte knyttet til anlægget (kontakt Team Anlæg).
-- Tinglysningsafgift ved ejendomskøb.
-
-*Listen er ikke udtømmende.*
-
-### 13.3 Hvad kan ikke anlægsføres?
-
-Driftsomkostninger opfylder ikke anlægskriterierne. Det gælder bl.a.:
-
-- Vedligeholdelse og reparationer som følge af slid, ælde eller skader (fx gulve eller tage).
-- Ekstra tilbehør og forbrugsmaterialer, der ikke er essentielle for anlæggets funktion.
-- Serviceaftaler og garantier, også ved længerevarende kontrakter.
-- Udskiftning af reservedele.
-- Licenser med varighed under tre år eller flerbrugeraftaler.
-
-*Listen er ikke udtømmende.*
-
-**Kontakt – Team Anlæg:** anlaeg@adm.dtu.dk
-
----
-
-## 14. Support og superbrugere
+## 13. Support og superbrugere
 
 Har du spørgsmål til regler, dokumentation eller systemer, følger du dette støttehierarki:
 
@@ -992,7 +947,7 @@ Har du spørgsmål til regler, dokumentation eller systemer, følger du dette st
 3. **Kontakt din lokale superbruger** — superbrugerne er erfarne i DTU's økonomi- og indkøbsprocesser og kan hjælpe med regler, dokumentation og systembrug.
 4. **Helpdesk via din superbruger** — ved tekniske fejl i DTU Fusion opretter superbrugeren en sag i Helpdesk.
 
-### 14.1 Find din superbruger
+### 13.1 Find din superbruger
 
 Søg efter din enheds navn for at finde din lokale superbruger for "Afregne udgifter". Et udvalg af superbrugere:
 
