@@ -67,7 +67,7 @@ Inden du påbegynder en tjenesterejse, skal du gennemføre følgende trin:
 - **Lav rejseafregningen** i DTU Fusion **senest 30 dage efter hjemkomst** — se [afsnit 7](#7-udgiftsrapport-i-dtu-fusion).
 - **Få afregningen godkendt** af din leder eller enhed.
 
-> **Spørgsmål?** Spørgsmål om reglerne for tjenesterejser rettes til din lokale superbruger (se [afsnit 14](#14-support-og-superbrugere)). Spørgsmål om rejseforsikring ved udlandsrejse rettes til Christian Landsgaard.
+> **Spørgsmål?** Spørgsmål om reglerne for tjenesterejser rettes til din lokale superbruger (se [afsnit 13](#13-support-og-superbrugere)). Spørgsmål om rejseforsikring ved udlandsrejse rettes til Christian Landsgaard.
 
 ---
 
