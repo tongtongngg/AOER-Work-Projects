@@ -1,24 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Controlling af drift i bottom up (LB)
-=====================================
-
-Bygger en Excel-outputfil der giver BC et overblik over driftsomkostninger paa
-projektniveau i forhold til budgetteret, med difference i kr. og %, samt
-benchmark for hvor langt vi er naaet paa aaret.
-
-Input (CSV eller XLSX, eksporteret fra Fusion):
-  1. LB-fil            : Projektstatus - loebende budget (OTBI), niveau 2
-  2. Projektstamdatafil: Projektstamdata (OAC), Projektstatus = Active
-
-Brug:
-  python drift_controlling.py --lb "LB fil.csv" --stamdata "Projektstamdata.csv" \
-      --month 6 --output "Drift_output.xlsx"
-
-  --month 6      -> benchmark 6/12 = 0,50 (ultimo juni)
-  --benchmark    -> alternativ: angiv benchmark direkte, fx 0.42
-"""
 
 import argparse
 import csv
@@ -34,9 +14,6 @@ from openpyxl.formatting.rule import FormulaRule
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-# ---------------------------------------------------------------------------
-# Konfiguration
-# ---------------------------------------------------------------------------
 
 # True : en outputlinje pr. projekt + UK + udgiftskategori
 # False: en outputlinje pr. projekt + udgiftskategori (UK'er lagt sammen)
@@ -84,16 +61,7 @@ HEADER_FILL = PatternFill("solid", fgColor="FF1F3864")
 ASSUMPTION_FILL = PatternFill("solid", fgColor="FFFFFF00")
 
 
-# ---------------------------------------------------------------------------
-# Indlaesning
-# ---------------------------------------------------------------------------
-
 def read_table(path: Path) -> pd.DataFrame:
-    """
-    Laes hele filen raat som tekst. Ingen antagelser om headerraekker,
-    kolonneantal eller separator - raekker med forskellig laengde er normale
-    i OTBI-udtraek (praeambel, subtotaler), saa vi padder selv.
-    """
     if path.suffix.lower() in (".xlsx", ".xlsm", ".xls"):
         return pd.read_excel(path, header=None, dtype=str)
 
@@ -177,21 +145,6 @@ def clean(value) -> str:
     return re.sub(r"\s+", " ", str(value)).strip()
 
 
-# ---------------------------------------------------------------------------
-# Layoutgenkendelse
-# ---------------------------------------------------------------------------
-#
-# Antallet af headerraekker er IKKE fast. OTBI/OAC-udtraek kan have 1, 2 eller
-# flere raekker afhaengigt af rapportopsaetning, og en forkert antagelse er
-# katastrofal: rammer vi en raekke for langt ned, mister vi den raekke der
-# baerer foerste projektnummer, og saa falder HELE projektblokken ud ved
-# forward-fill uden nogen fejlmeddelelse.
-#
-# Derfor genkendes layoutet i stedet:
-#   1. headerraekken findes paa kolonnenavne
-#   2. datastart findes paa "raekken indeholder rigtige tal"
-#   3. kolonner mappes paa sammensatte navne, ikke position
-
 NUMERIC_RE = re.compile(r"^-?\(?[\d.\s\u00a0]*\d(?:,\d+)?\)?-?$")
 
 # felt -> (forventet position jf. spec, moenstre der matcher kolonnenavnet)
@@ -248,11 +201,6 @@ def find_header_row(raw: pd.DataFrame, spec: dict, filename: str) -> int:
 
 
 def find_data_start(raw: pd.DataFrame, header_row: int, filename: str) -> int:
-    """
-    Foerste datalinje = foerste raekke efter headeren der indeholder mindst
-    eet rigtigt tal. Fortsaettelsesraekker ('Raw Cost', '(Forecast-Actual)')
-    er ren tekst og springes dermed over.
-    """
     for i in range(header_row + 1, len(raw)):
         if any(looks_numeric(v) for v in raw.iloc[i]):
             return i
@@ -316,19 +264,7 @@ def detect_layout(path: Path, spec: dict, warnings: list):
     return data, mapping, header_row, data_start
 
 
-# ---------------------------------------------------------------------------
-# LB-fil
-# ---------------------------------------------------------------------------
-
 def load_lb(path: Path, warnings: list) -> pd.DataFrame:
-    """
-    LB-filen er et hierarkisk OTBI-udtraek:
-      - 2 headerraekker
-      - projektnr/projektnavn staar kun paa foerste raekke i hver projektblok
-      - UK staar kun paa foerste raekke i hver UK-blok
-      - subtotalraekker ('84102 Total', 'E Total', '10 Total', '108750 Total')
-        er blandet ind mellem detailraekkerne, men har ALTID tom kolonne G
-    """
     raw, cols, header_row, data_start = detect_layout(path, LB_COLUMNS, warnings)
 
     # Kritisk kontrol: foerste datalinje SKAL baere et projektnummer. Goer den
@@ -378,10 +314,6 @@ def load_stamdata(path: Path, warnings: list) -> pd.DataFrame:
     }).query("projektnr != ''")
 
 
-# ---------------------------------------------------------------------------
-# Databehandling
-# ---------------------------------------------------------------------------
-
 def build_output(lb: pd.DataFrame, stamdata: pd.DataFrame):
     drift = lb[lb["kategori"].isin(DRIFT_KATEGORIER)].copy()
 
@@ -405,7 +337,6 @@ def build_output(lb: pd.DataFrame, stamdata: pd.DataFrame):
         ["sektionsnummer", "projektnr", "uk", "_kat"], na_position="last"
     ).drop(columns="_kat").reset_index(drop=True)
 
-    # --- Fravalgte / rest ---
     lb_projekter = set(lb["projektnr"])
     output_projekter = set(agg["projektnr"])
     fravalgt = []
@@ -448,10 +379,6 @@ def build_output(lb: pd.DataFrame, stamdata: pd.DataFrame):
     return agg, pd.DataFrame(fravalgt)
 
 
-# ---------------------------------------------------------------------------
-# Excel
-# ---------------------------------------------------------------------------
-
 def style_header(cell):
     cell.font = Font(name=FONT_NAME, size=10, bold=True, color="FFFFFFFF")
     cell.fill = HEADER_FILL
@@ -461,7 +388,6 @@ def style_header(cell):
 def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
     wb = Workbook()
 
-    # ---------------- Forudsætninger ----------------
     ws_a = wb.active
     ws_a.title = "Forudsætninger"
     ws_a.column_dimensions["A"].width = 34
@@ -502,7 +428,6 @@ def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
     b3.border = Border(*[Side(style="thin")] * 4)
     ws_a["B5"].number_format = "dd-mm-yyyy"
 
-    # ---------------- Drift ----------------
     ws = wb.create_sheet("Drift")
     for col, header in enumerate(OUTPUT_HEADERS, start=1):
         style_header(ws.cell(1, col, header))
@@ -546,7 +471,6 @@ def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
             ws.cell(i, 2).alignment = Alignment(horizontal="left")
             ws.cell(i, 4).alignment = Alignment(horizontal="center")
 
-        # Totalraekke
         total = last + 1
         ws.cell(total, 5, "I alt").font = Font(name=FONT_NAME, size=10, bold=True)
         for col in (6, 7, 8, 11):
@@ -560,7 +484,6 @@ def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
         for col in range(1, 16):
             ws.cell(total, col).border = Border(top=Side(style="medium"))
 
-        # Roed skrift ved negativ kolonne H
         rng = f"A2:O{last}" if RED_WHOLE_ROW else f"H2:H{last}"
         ws.conditional_formatting.add(
             rng, FormulaRule(formula=[f"$H2<0"], font=Font(color=RED), stopIfTrue=False)
@@ -573,7 +496,6 @@ def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
                           [14, 14, 34, 7, 24, 18, 15, 15, 15, 11, 18, 26, 26, 12, 12]):
         ws.column_dimensions[get_column_letter(col)].width = width
 
-    # ---------------- Fravalgt / rest ----------------
     ws_f = wb.create_sheet("Fravalgt")
     cols = ["Projektnummer", "Projektnavn", "Sektionsnummer", "Projektcontroller", "Årsag"]
     for col, header in enumerate(cols, start=1):
@@ -591,8 +513,6 @@ def write_workbook(agg, fravalgt, benchmark, month, lb_path, sd_path, out_path):
 
     wb.save(out_path)
 
-
-# ---------------------------------------------------------------------------
 
 def main():
     p = argparse.ArgumentParser(
