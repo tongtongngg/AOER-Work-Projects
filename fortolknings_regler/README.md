@@ -21,7 +21,7 @@ Kør herefter følgende kommandoer i denne rækkefølge:
 
 ```bash
 python main_fortolkning.py gather
-python main_fortolkning.py combine_webpage
+python main_fortolkning.py combine_webpages
 python main_fortolkning.py pdf_to_md
 ```
 

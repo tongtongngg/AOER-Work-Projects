@@ -13,10 +13,10 @@ async def main():
     # ==========================================
     
     # 1. PROJECT ROOT
-    project_root = r"C:\Users\s204093\Documents\Kode\AOER-Work-Projects\fortolknings_regler\data\test" 
+    project_root = r"C:\Users\s204093\Documents\Kode\AOER-Work-Projects\fortolknings_regler\data\nytest" 
     
     # 2. STARTING URL
-    target_start_url = "https://www.inside.dtu.dk/oekonomi/projektoekonomi/projekttype/eksternt-finansierede-projekter" 
+    target_start_url = "https://www.inside.dtu.dk/oekonomi/projektoekonomi/projekttype/eksternt-finansierede-projekter/eus-rammeprogrammer/horizon-europe/ria-ia-og-csa" 
     
     # ==========================================
     # --- PATHS ---
