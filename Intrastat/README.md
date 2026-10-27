@@ -1,96 +1,105 @@
-# Intrastat assistant
+# Intrastat-assistent
 
-This folder contains `runme.py`, a script intended to be uploaded to a Microsoft
-Copilot agent together with the monthly Excel workbooks. The agent uses the
-script to prepare a Danish Intrastat import workbook, identify rows that need
-review, and help find valid commodity codes for goods without a usable code.
+Denne mappe indeholder `runme.py`, et script, der er beregnet til at blive
+uploadet til en Microsoft Copilot-agent sammen med månedens Excel-projektmapper.
+Agenten bruger scriptet til at klargøre en dansk Intrastat-importprojektmappe,
+identificere rækker, der skal gennemgås, og hjælpe med at finde gyldige
+varekoder til varer uden en brugbar kode.
 
-For the agent's detailed operating procedure and response requirements, see
-[`agent-instructions.md`](agent-instructions.md).
+Se [`agent-instructions.md`](agent-instructions.md) for agentens detaljerede
+arbejdsgang og krav til svar.
 
-## What the agent does
+## Hvad agenten gør
 
-The workflow has two steps:
+Arbejdsgangen består af to trin:
 
-1. **Prepare the monthly report.** The agent runs `runme.py run`. The script
-   reads the Fusion export and the Intrastat template, applies any usable
-   supplier history and invoice details, and creates the report and review
-   files. Rows are classified as ready, service, excluded, or requiring review.
-2. **Research missing commodity codes.** For review rows that need a code, the
-   agent researches the product using invoice details and supplier
-   documentation, then checks candidate 8-digit codes against the template's
-   `Opslag` sheet using `runme.py codes`. It records researched decisions and
-   runs `runme.py apply` to rebuild the outputs from the original inputs.
+1. **Klargør månedsrapporten.** Agenten kører `runme.py run`. Scriptet læser
+   Fusion-eksporten og Intrastat-skabelonen, anvender eventuel brugbar
+   leverandørhistorik og fakturainformation og opretter rapporten og
+   gennemgangsfilerne. Rækker klassificeres som klar til brug, service,
+   udelukket eller kræver gennemgang.
+2. **Undersøg manglende varekoder.** For gennemgangsrækker, der mangler en kode,
+   undersøger agenten produktet ved hjælp af fakturainformation og
+   leverandørdokumentation. Derefter kontrollerer den mulige 8-cifrede koder
+   mod skabelonens ark `Opslag` ved hjælp af `runme.py codes`. Agenten
+   registrerer de undersøgte beslutninger og kører `runme.py apply` for at
+   genopbygge outputfilerne ud fra de oprindelige inputfiler.
 
-Rows needing manual handling for reasons other than a missing code—for
-example, a missing country or DKK value—are reported for the user rather than
-guessed. The agent should only apply codes returned by the script's `codes`
-helper and should provide the source and confidence for researched decisions.
+Rækker, der kræver manuel behandling af andre årsager end en manglende kode —
+for eksempel et manglende land eller en manglende DKK-værdi — rapporteres til
+brugeren i stedet for at blive udfyldt ved gæt. Agenten må kun anvende koder,
+som scriptets `codes`-hjælpefunktion returnerer, og skal angive kilde og
+sikkerhedsniveau for undersøgte beslutninger.
 
-## Files to provide
+## Filer, der skal stilles til rådighed
 
-Upload `runme.py` and the monthly workbooks to the Copilot agent:
+Upload `runme.py` og månedens projektmapper til Copilot-agenten:
 
-- **Required:** Fusion Intrastat export for the month.
-- **Required:** Intrastat template workbook (`.xlsm`; its filename contains
-  `skabelon` and it includes the valid-code `Opslag` sheet).
-- **Recommended:** `LEV-HSKoder.xlsx`, containing supplier commodity-code
-  history. Without it, the script cannot use or update that history.
-- **Recommended:** `Fakturaer YYYY-MM.xlsx`, containing invoice-line details
-  that help identify products and supplementary quantities. Without it, that
-  supporting information is unavailable.
-- **Optional:** an overrides CSV or Excel workbook, if explicit invoice
-  corrections are needed.
+- **Påkrævet:** Månedens Fusion Intrastat-eksport.
+- **Påkrævet:** Intrastat-skabelonprojektmappen (`.xlsm`; filnavnet indeholder
+  `skabelon`, og den indeholder arket `Opslag` med gyldige koder).
+- **Anbefalet:** `LEV-HSKoder.xlsx`, som indeholder historik over leverandørernes
+  varekoder. Uden denne fil kan scriptet ikke bruge eller opdatere historikken.
+- **Anbefalet:** `Fakturaer YYYY-MM.xlsx`, som indeholder fakturalinjer, der kan
+  hjælpe med at identificere produkter og supplerende mængder. Uden denne fil
+  er disse oplysninger ikke tilgængelige.
+- **Valgfrit:** En CSV-fil eller Excel-projektmappe med tilsidesættelser, hvis
+  der er behov for specifikke fakturakorrektioner.
 
-The agent instructions expect the files to be available in `/mnt/data`. If a
-required workbook is missing or the script cannot identify the correct file,
-the agent should ask for the missing file or use explicit file paths rather
-than guessing.
+Agentens instruktioner forudsætter, at filerne er tilgængelige i `/mnt/data`.
+Hvis en påkrævet projektmappe mangler, eller scriptet ikke kan identificere den
+korrekte fil, skal agenten bede om den manglende fil eller bruge eksplicitte
+filstier i stedet for at gætte.
 
-## Using the agent
+## Brug af agenten
 
-1. Upload `runme.py` and the monthly files listed above.
-2. Ask the agent to prepare the Intrastat report for the month. The agent runs
-   the initial `run` step and provides links to the generated workbook and
-   review files.
-3. If codes are missing, the agent researches only the review items that need
-   codes, validates each candidate against `Opslag`, and applies accepted
-   decisions. Review any pending low-confidence decisions and manual-handling
-   rows before treating the report as complete.
-4. Confirm or correct any pending decisions with the agent. It can rebuild the
-   outputs from the original inputs using `apply`.
+1. Upload `runme.py` og månedens filer som beskrevet ovenfor.
+2. Bed agenten om at klargøre månedens Intrastat-rapport. Agenten udfører det
+   indledende `run`-trin og giver links til den oprettede projektmappe og
+   gennemgangsfilerne.
+3. Hvis der mangler koder, undersøger agenten kun de gennemgangsposter, der
+   mangler koder, validerer hver mulig kode mod `Opslag` og anvender de
+   godkendte beslutninger. Gennemgå eventuelle afventende beslutninger med lavt
+   sikkerhedsniveau og rækker til manuel behandling, før rapporten betragtes
+   som færdig.
+4. Bekræft eller korrigér eventuelle afventende beslutninger sammen med
+   agenten. Den kan genopbygge outputfilerne ud fra de oprindelige inputfiler
+   ved hjælp af `apply`.
 
-The agent's detailed instructions are in
-[`agent-instructions.md`](agent-instructions.md); follow those for
-the exact run procedure and output links.
+Agentens detaljerede instruktioner findes i
+[`agent-instructions.md`](agent-instructions.md). Følg dem for at se den
+præcise kørselsprocedure og hvordan du får links til outputfilerne.
 
-## Outputs
+## Outputfiler
 
-The files are written to the output directory supplied to the script (the
-agent instructions use `/mnt/data`):
+Filerne skrives til den outputmappe, der angives til scriptet (agentens
+instruktioner bruger `/mnt/data`):
 
-- `Intrastat_YYYY-MM.xlsm` — generated report workbook based on the supplied
-  template.
-- `Intrastat_review_YYYY-MM.xlsx` and `.json` — review rows, reasons,
-  supporting invoice details, and researched code decisions.
-- `LEV-HSKoder_YYYY-MM.xlsx` — updated supplier-code history, when an input
-  history workbook was supplied.
-- `Intrastat_log_YYYY-MM.json` — run summary, counts, input/output locations,
-  and (after `apply`) applied, pending, and rejected decisions.
-- `Intrastat_run_YYYY-MM.json` — manifest saved by `run`, used by `apply` to
-  rebuild from the same original input files.
+- `Intrastat_YYYY-MM.xlsm` — oprettet rapportprojektmappe baseret på den
+  medfølgende skabelon.
+- `Intrastat_review_YYYY-MM.xlsx` og `.json` — gennemgangsrækker, årsager,
+  supplerende fakturainformation og undersøgte kodebeslutninger.
+- `LEV-HSKoder_YYYY-MM.xlsx` — opdateret historik over leverandørkoder, hvis
+  der blev leveret en inputfil med historikken.
+- `Intrastat_log_YYYY-MM.json` — kørselsoversigt, antal, placeringer af input-
+  og outputfiler samt (efter `apply`) anvendte, afventende og afviste
+  beslutninger.
+- `Intrastat_run_YYYY-MM.json` — manifest, der gemmes af `run` og bruges af
+  `apply` til at genopbygge outputfilerne ud fra de samme oprindelige
+  inputfiler.
 
-## Decision handling
+## Håndtering af beslutninger
 
-`apply` validates that decisions refer to review invoices that need a code and
-that each non-service commodity code is a valid 8-digit code in `Opslag`.
-Invalid decisions are rejected and reported. A commodity code of `"0"` marks
-an invoice as a service.
+`apply` validerer, at beslutningerne vedrører fakturaer i gennemgangen, som
+mangler en kode, og at hver varekode, der ikke gælder en service, er en gyldig
+8-cifret kode i `Opslag`. Ugyldige beslutninger afvises og rapporteres.
+Varekoden `"0"` angiver, at en faktura vedrører en service.
 
-By default, `apply` applies low-confidence decisions as well as other valid
-decisions. Use `--hold-low` to keep low-confidence codes (and medium-confidence
-service decisions) pending in review. The agent should make this choice
-explicitly and ask the user to confirm decisions that remain pending.
+Som standard anvender `apply` beslutninger med lavt sikkerhedsniveau sammen med
+andre gyldige beslutninger. Brug `--hold-low` for at lade koder med lavt
+sikkerhedsniveau (og servicedecisioner med middel sikkerhedsniveau) forblive
+afventende i gennemgangen. Agenten skal tydeligt angive dette valg og bede
+brugeren bekræfte de beslutninger, der fortsat afventer.
 
-The output is a prepared report, not a substitute for reviewing the
-classification and the final workbook.
+Outputtet er en klargjort rapport og erstatter ikke en gennemgang af
+klassificeringen og den endelige projektmappe.
